@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import Pattern1 from "../assets/images/pattern1.svg";
-import Pattern2 from "../assets/images/pattern2.svg";
+import Pattern4 from "../assets/images/pattern4.png";
 import Img1 from "../assets/images/img3.png";
 import HeroImg from "../assets/images/hero-img.svg";
+import Peta from "../assets/images/peta.png";
 
 export default function About() {
   return (
@@ -94,6 +95,48 @@ export default function About() {
                   <span>Membangun jejaring kerja sama dengan berbagai pihak dalam industri kopi.</span>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="relative bg-[url('/src/assets/images/bg-about4.png')] bg-cover bg-center bg-no-repeat z-1">
+        <div className="absolute w-full h-full bg-gradient-to-b from-white to-transparent -z-1"></div>
+        <img src={Pattern4} alt="" className="absolute w-full top-0 right-0 -z-1" />
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen py-12">
+          <div className="flex flex-col-reverse md:flex-row justify-between items-center min-h-screen gap-8">
+            <div className="">
+              <img src={Peta} alt="" />
+            </div>
+
+            <div className="space-y-12 md:space-y-40">
+              <div className="flex flex-wrap gap-8">
+                <div className="flex flex-col gap-4">
+                  <Link href="#" className="inline-flex w-max items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
+                    Maps{" "}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
+                      <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
+                    </svg>
+                  </Link>
+                  <Link href="#" className="inline-flex w-max items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
+                    WhatsApp{" "}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
+                      <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
+                    </svg>
+                  </Link>
+                </div>
+                <h1 className="uppercase text-4xl md:text-5xl lg:text-6xl text-right">
+                  Lokasi dan <br />
+                  kontak
+                </h1>
+              </div>
+
+              <div className="text-white space-y-4">
+                <p>Alamat: Jl. Teratai No. 7 Way Mengaku, Liwa, Lampung Barat, 3481 </p>
+                <p>Telepon: (0728) 21120 Faks: (0728) 21499</p>
+                <p> Email: sekolahkopi@gmail.com</p>
+              </div>
             </div>
           </div>
         </div>
