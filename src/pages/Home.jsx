@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
 import Pattern1 from "../assets/images/pattern1.svg";
+import Pattern2 from "../assets/images/pattern2.svg";
 import Img1 from "../assets/images/img1.jpg";
 import Img2 from "../assets/images/img2.jpg";
+import Img3 from "../assets/images/img3.png";
+import Img4 from "../assets/images/img4.jpg";
+import Img5 from "../assets/images/img5.png";
 
 export default function Home() {
   return (
@@ -61,6 +65,69 @@ export default function Home() {
             <p className="text-xl md:text-2xl lg:text-4xl">Jumlah lahan perkebunan kopi di lampungbarat</p>
             <p className="text-5xl md:text-6xl lg:text-9xl font-bold tracking-widest">54.101 </p>
             <p className="text-3xl md:text-4xl lg:text-6xl">HEKTARE</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="relative overflow-hidden">
+        <img src={Pattern2} alt="" className="absolute w-full -top-10 md:-top-30 lg:-top-50 right-0 -z-1" />
+        <img src={Img3} alt="" className="absolute top-0 -right-12 -rotate-35 -z-1 w-80 h-auto md:w-[500px]" />
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 my-24">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-8 mt-12">
+              <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl text-[#334710]">Kopi Robusta</h1>
+              <p className="text-[#334710] text-sm lg:text-base">
+                Kopi Robusta merupakan salah satu jenis kopi yang banyak di gemari/ di sukai oleh semua kalangan. Terkenal dengan cita rasa dan aroma wangi kopi yang khas, serta kandungan kafein yang tinggi, menjadikannya pilihan populer
+                untuk dicampur dengan varietas kopi lainnya.
+              </p>
+              <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+                Learn More{" "}
+                <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
+                  <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
+                </svg>
+              </Link>
+            </div>
+            <div className=""></div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 md:mt-24 lg:mt-32">
+            <div className="">
+              <img src={Img4} alt="" className="w-full h-40 object-cover" />
+              <p className="mt-8 w-full lg:w-1/3">Indonesia merupakan negara yang kaya akan hasil buminya, salah satunya adalah biji kopi terbaik. </p>
+            </div>
+
+            <div className="text-center md:text-right flex flex-col items-center md:items-end justify-between">
+              <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl">Liwa, Lampung Barat Komoditi Kopi Robusta Terbaik</h1>
+              <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+                Read More{" "}
+                <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
+                  <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
+                </svg>
+              </Link>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 md:mt-24 lg:mt-32">
+            <div className="flex flex-col justify-between items-center text-center md:text-left md:items-start">
+              <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl">Kelas Green Grading & Pascapanen</h1>
+              <p>
+                Durasi: 2 Jam
+                <br />
+                Harga: Rp 150.000,-
+              </p>
+              <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+                Register Now{" "}
+                <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
+                  <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
+                </svg>
+              </Link>
+            </div>
+
+            <div className="space-y-10">
+              <p className="text-right">kami mengajarkan berbagai teknik pasca panen kopi, mulai dari proses grading hingga cara pengolahan kopi yang akan menghasilkan produk berkualitas. </p>
+              <img src={Img5} alt="" className="w-full h-70 object-cover" />
+            </div>
           </div>
         </div>
       </section>

@@ -11,6 +11,7 @@
     background: #fefeff;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    color: #334710;
   }
 
   ::-webkit-scrollbar {
