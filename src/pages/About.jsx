@@ -14,6 +14,23 @@ export default function About() {
 
         <img src={Pattern1} alt="" className="absolute w-full -bottom-50 md:-bottom-90 lg:top-0 right-0 -z-1" />
       </section>
+
+      <section className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24 z-1">
+        <div className="flex flex-col-reverse md:flex-row gap-8 justify-between">
+          <div className="space-y-4 w-full md:w-xl">
+            <p>Sekolah Kopi merupakan Sarana Agro Eduwisata yaitu tempat wisata yang berbasis Pendidikan komoditi kopi, di sekolah kopi bisa belajar Budidaya Kopi, Pasca Panen dan Kelas Barista.</p>
+            <p>
+              Sekolah kopi ini terletak di Pekon Suka Jaya, Kabupaten Lampung Barat, diresmikan oleh Bupati Lampung Barat Parosil Mabsus, Selasa Desember 2020. Sebelum adanya sekolah kopi ini, tempat ini hanyalah kebun kopi biasa, Lalu
+              Bupati Lampung Barat Parosil Mabsus, membangun sekolah kopi ini untuk memunculkan inovasi-inovasi baru terkait kopi, terutama bagi petani kopi di Lampung Barat, Karena di Lampung merupakan penghasil kopi robusta tertinggi di
+              Indonesia, dan sekolah kopi ini merupakan satu-satunya sekolah kopi di Lampung.
+            </p>
+          </div>
+
+          <div className="text-center w-full md:w-sm md:text-right">
+            <h1 className="text-4xl sm:text-6xl font-bold">SEKOLAH KOPI LAMPUNG BARAT</h1>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
