@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Pattern1 from "../assets/images/pattern1.svg";
+import Pattern2 from "../assets/images/pattern2.svg";
 import Img1 from "../assets/images/img3.png";
 import HeroImg from "../assets/images/hero-img.svg";
 
@@ -18,7 +19,7 @@ export default function About() {
       </section>
 
       <section className="relative z-1">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:pt-24 md:pb-40">
           <div className="flex flex-col-reverse md:flex-row gap-8 justify-between">
             <div className="space-y-4 w-full md:w-xl">
               <p>Sekolah Kopi merupakan Sarana Agro Eduwisata yaitu tempat wisata yang berbasis Pendidikan komoditi kopi, di sekolah kopi bisa belajar Budidaya Kopi, Pasca Panen dan Kelas Barista.</p>
@@ -30,7 +31,7 @@ export default function About() {
             </div>
 
             <div className="text-center w-full md:w-sm md:text-right">
-              <h1 className="text-4xl sm:text-6xl font-bold">SEKOLAH KOPI LAMPUNG BARAT</h1>
+              <h1 className="text-4xl sm:text-6xl">SEKOLAH KOPI LAMPUNG BARAT</h1>
             </div>
           </div>
         </div>
@@ -50,6 +51,12 @@ export default function About() {
           <div className="bg-[url('/src/assets/images/bg-about2.png')] bg-cover bg-center bg-no-repeat">
             <img src={HeroImg} alt="" className="p-0 lg:ps-20 xl:ps-40" />
           </div>
+        </div>
+      </section>
+
+      <section className="bg-[url('/src/assets/images/pattern3.png')] bg-cover bg-center bg-no-repeat">
+        <div className="flex justify-center items-center h-screen w-full px-4">
+          <p className="text-center text-5xl">"Belajar Kopi, Nikmati Pengalaman"</p>
         </div>
       </section>
     </>
