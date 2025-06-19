@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Pattern1 from "../assets/images/pattern1.svg";
 import Pattern2 from "../assets/images/pattern2.svg";
+import HeroImg from "../assets/images/hero-img.svg";
 import Img1 from "../assets/images/img1.jpg";
 import Img2 from "../assets/images/img2.jpg";
 import Img3 from "../assets/images/img3.png";
@@ -25,7 +26,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <img src="/src/assets/images/hero-img.svg" alt="" className="hidden lg:block" />
+            <img src={HeroImg} alt="" className="hidden lg:block" />
           </div>
         </div>
 
