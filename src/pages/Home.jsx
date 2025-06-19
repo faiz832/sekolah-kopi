@@ -58,9 +58,9 @@ export default function Home() {
       <section className="bg-[url('/src/assets/images/bg-img1.png')] h-screen bg-cover bg-center bg-no-repeat">
         <div className="flex justify-center items-center h-screen">
           <div className="text-white text-center space-y-4">
-            <p className="text-xl lg:text-4xl">Jumlah lahan perkebunan kopi di lampungbarat</p>
-            <p className="text-5xl lg:text-9xl font-bold tracking-widest">54.101 </p>
-            <p className="text-3xl lg:text-6xl">HEKTARE</p>
+            <p className="text-xl md:text-2xl lg:text-4xl">Jumlah lahan perkebunan kopi di lampungbarat</p>
+            <p className="text-5xl md:text-6xl lg:text-9xl font-bold tracking-widest">54.101 </p>
+            <p className="text-3xl md:text-4xl lg:text-6xl">HEKTARE</p>
           </div>
         </div>
       </section>
