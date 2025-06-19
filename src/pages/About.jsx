@@ -59,6 +59,45 @@ export default function About() {
           <p className="text-center text-5xl">"Belajar Kopi, Nikmati Pengalaman"</p>
         </div>
       </section>
+
+      <section className="">
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="bg-[url('/src/assets/images/bg-about3.png')] bg-cover bg-center bg-no-repeat">
+            <div className="py-24 px-4 md:px-12 lg:px-20 xl:px-40">
+              <h1 className="text-center md:text-left text-white uppercase text-4xl sm:text-6xl font-bold">
+                visi dan <br />
+                misi
+              </h1>
+            </div>
+          </div>
+
+          <div className="bg-[#253707B2] text-white">
+            <div className="py-12 md:py-24 px-4 sm:px-8 md:px-12">
+              <h1 className="uppercase text-xl">Visi</h1>
+              <p className="mt-4">Menjadi pusat pengembangan kopi unggul yang berperan dalam pemberdayaan masyarakat Lampung Barat melalui pendidikan dan pelatihan yang berbasis pada teknologi dan kearifan lokal.</p>
+              <h1 className="uppercase mt-8 text-xl">Misi</h1>
+              <ul className="mt-4 space-y-2">
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>Meningkatkan kualitas produksi dan pengolahan kopi Robusta Lampung Barat.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>Memberikan pelatihan kepada petani kopi dan masyarakat lokal tentang teknik budidaya yang baik dan benar untuk meningkatkan produktivitas kopi yang efisien.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>Mendorong pengembangan pariwisata berbasis kopi untuk mendukung perekonomian lokal melalui agro wisata dan edukasi.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>Membangun jejaring kerja sama dengan berbagai pihak dalam industri kopi.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
