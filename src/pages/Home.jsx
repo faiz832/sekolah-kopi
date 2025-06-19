@@ -23,6 +23,16 @@ export default function Home() {
 
         <img src={Pattern1} alt="" className="absolute w-full top-100 sm:top-50 lg:top-0 right-0 -z-1" />
       </section>
+
+      {/* Tentang kami  */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center">
+          <div className="">
+            <img src="/src/assets/images/img1.jpg" alt="" />
+            <img src="/src/assets/images/img2.jpg" alt="" />
+          </div>
+        </div>
+      </section>
     </>
   );
 }
