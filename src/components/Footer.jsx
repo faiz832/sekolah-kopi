@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, MapPin, Phone, Mail } from "lucide-react";
+import { Facebook, Instagram, Twitter } from "lucide-react";
 import Logo from "../assets/icons/brand-logo.svg";
 import { Link } from "react-router-dom";
 
