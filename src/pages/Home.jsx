@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </div>
 
-        <img src={Pattern1} alt="" className="absolute w-full top-100 sm:top-50 lg:top-0 right-0 -z-1" />
+        <img src={Pattern1} alt="" className="absolute w-full -bottom-50 md:-bottom-90 lg:top-0 right-0 -z-1" />
       </section>
 
       {/* Tentang kami  */}
@@ -51,6 +51,16 @@ export default function Home() {
             <p className="text-[#334710] text-sm lg:text-base">
               Sekolah Kopi merupakan sarana agro eduwisata atau tempat wisata yang berbasis pendidikan komoditi kopi, di Sekolah Kopi pengunjung dapat mengikuti berbagai aktivitas edukasi mengenai kopi.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[url('/src/assets/images/bg-img1.png')] h-screen bg-cover bg-center bg-no-repeat">
+        <div className="flex justify-center items-center h-screen">
+          <div className="text-white text-center space-y-4">
+            <p className="text-xl lg:text-4xl">Jumlah lahan perkebunan kopi di lampungbarat</p>
+            <p className="text-5xl lg:text-9xl font-bold tracking-widest">54.101 </p>
+            <p className="text-3xl lg:text-6xl">HEKTARE</p>
           </div>
         </div>
       </section>
