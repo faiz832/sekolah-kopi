@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Pattern1 from "../assets/images/pattern1.svg";
-import Arrow from "../assets/icons/arrow.svg";
 import Img1 from "../assets/images/img1.jpg";
 import Img2 from "../assets/images/img2.jpg";
 
