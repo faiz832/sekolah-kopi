@@ -1,7 +1,33 @@
 import { Link } from "react-router-dom";
 import Pattern1 from "../assets/images/pattern3.png";
+import Pattern2 from "../assets/images/pattern9.png";
+import { Star } from "lucide-react";
+import ProfilePlaceholder from "../assets/images/profile.webp";
 
 export default function Class() {
+  const testimonials = [
+    {
+      name: "Alin",
+      text: "Ilmunya sangat praktis dan instrukturnya sabar sekali. Dulu saya hanya suka kopi, sekarang saya percaya diri berdiri di belakang mesin espresso. Setelah lulus dari sini, saya langsung diterima kerja di kedai kopi impian saya. Terima kasih",
+    },
+    {
+      name: "Mario",
+      text: "Di sini saya tidak hanya belajar menyeduh, tapi juga memahami bisnis kopi dari hulu ke hilir. Pengetahuan tentang roasting dan cupping benar-benar membuka mata.",
+    },
+    {
+      name: "Roby",
+      text: "Tumbuh besar di kebun kopi, saya pikir saya sudah tahu segalanya. Ternyata saya salah. Sekolah ini mengajarkan saya bagaimana mengolah",
+    },
+    {
+      name: "Ridwan",
+      text: "Kelas akhir pekannya sangat menyenangkan!  Suasananya santai, tapi ilmunya sangat mendalam. Cara saya menikmati kopi di rumah sekarang benar-benar berbeda. Saya jadi bisa lebih menghargai setiap cangkir kopi yang saya minum.",
+    },
+    {
+      name: "Ahmad",
+      text: "Saya mengambil kelas penyangraian (roasting) untuk meningkatkan skill. Pengetahuan instruktur tentang sains di balik roasting sangat dalam. Diskusi dan praktik langsungnya benar-benar membantu saya memahami prosesnya secara detail. Sangat direkomendasikan untuk yang ingin naik level",
+    },
+  ];
+
   return (
     <>
       <section className="relative bg-[url('/src/assets/images/bg-class.png')] h-screen bg-cover bg-center bg-no-repeat z-1">
@@ -23,7 +49,7 @@ export default function Class() {
         </p>
       </section>
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 md:pb-24 space-y-12">
+      <section className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 md:pb-24 space-y-12 z-10">
         <div className="flex flex-col md:flex-row gap-8 p-8 bg-[#334710B2] text-white">
           <div className="w-full md:w-1/2 space-y-4 md:space-y-12 text-center md:text-left">
             <h1 className="uppercase text-2xl md:text-4xl font-light">Kelas Budidaya Kebun Produktif</h1>
@@ -108,12 +134,52 @@ export default function Class() {
           </div>
 
           <div className="w-full md:w-1/2 space-y-4 md:space-y-12 text-center md:text-right">
-            <h1 className="uppercase text-2xl md:text-4xl font-light">Kelas Brewing (Penyeduhan Kopi)</h1>
+            <h1 className="uppercase text-2xl md:text-4xl font-light">
+              Kelas Brewing <br /> (Penyeduhan Kopi)
+            </h1>
             <p className="font-light italic">Cara Menyeduh Kopi yang Tepat Sesuai Jenis Kopimu</p>
             <p>
               Durasi: 2 Jam <br />
               Harga: Rp 300.000,-
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="relative z-1">
+        <img src={Pattern2} alt="" className="absolute w-full -top-50 lg:-top-150 left-0 -z-1" />
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 md:py-24">
+          <div className="mx-auto md:w-max text-center space-y-4">
+            <h1 className="font-bold text-3xl md:text-5xl">Ulasan Terbaru</h1>
+            <p>Berikut beberapa testimoni terbaru kami.</p>
+            <div className="flex flex-col md:flex-row gap-4">
+              <Link className="inline-flex items-center justify-center bg-white border border-[#334710] py-3 px-4 lg:w-[200px] text-xs sm:text-base rounded-lg">Baca Selengkapnya</Link>
+              <Link className="inline-flex items-center justify-center bg-[#334710] py-3 px-4 lg:w-[200px] text-white text-xs sm:text-base rounded-lg">Tulis Ulasan</Link>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 mt-12 md:mt-24">
+            {testimonials.map((item, index) => (
+              <div key={index} className="bg-[#5E6A44] text-white rounded-md p-4 shadow-md h-full">
+                {/* Header */}
+                <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center gap-2">
+                    <img src={ProfilePlaceholder} alt={item.name} className="w-8 h-8 rounded-full bg-gray-200" />
+                    <span className="font-semibold">{item.name}</span>
+                  </div>
+                  <div className="flex gap-0.5 text-yellow-400">
+                    {Array(5)
+                      .fill(0)
+                      .map((_, i) => (
+                        <Star key={i} size={14} fill="currentColor" strokeWidth={0} />
+                      ))}
+                  </div>
+                </div>
+                {/* Text */}
+                <p className="text-sm text-white leading-relaxed line-clamp-3">{item.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
