@@ -74,7 +74,7 @@ export default function Home() {
         <img src={Pattern2} alt="" className="absolute w-full -top-10 md:-top-30 lg:-top-50 right-0 -z-1" />
         <img src={Img3} alt="" className="absolute top-0 -right-12 -rotate-35 -z-1 w-80 h-auto md:w-[500px]" />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 my-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-12 md:pb-32 mt-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-8 mt-12">
               <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl font-light">Kopi Robusta</h1>
@@ -109,8 +109,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 md:mt-24 lg:mt-32">
-            <div className="flex flex-col justify-between items-center text-center md:text-left md:items-start">
+          <div className="flex flex-col-reverse md:flex-row gap-8 mt-12 md:mt-24 lg:mt-32">
+            <div className="w-full md:w-1/2 flex flex-col justify-between items-center gap-4 md:gap-0 text-center md:text-left md:items-start">
               <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl font-light">Kelas Green Grading & Pascapanen</h1>
               <p>
                 Durasi: 2 Jam
@@ -125,9 +125,9 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="space-y-10">
-              <p className="text-right">kami mengajarkan berbagai teknik pasca panen kopi, mulai dari proses grading hingga cara pengolahan kopi yang akan menghasilkan produk berkualitas. </p>
-              <img src={Img5} alt="" className="w-full h-70 object-cover" />
+            <div className="w-full md:w-1/2 flex flex-col-reverse md:flex-col">
+              <p className="mt-8 md:mt-0 md:mb-10 md:text-right">kami mengajarkan berbagai teknik pasca panen kopi, mulai dari proses grading hingga cara pengolahan kopi yang akan menghasilkan produk berkualitas. </p>
+              <img src={Img5} alt="" className="w-full h-40 md:h-70 object-cover" />
             </div>
           </div>
         </div>

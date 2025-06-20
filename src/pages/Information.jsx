@@ -109,7 +109,7 @@ export default function Information() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex flex-col-reverse md:flex-col">
-              <p className="mt-8 md:mb-8 w-full ">Harga biji kopi robusta di Kabupaten Lampung Barat, Provinsi Lampung, di tingkat pekebun pada awal Juli 2024 sempat menyentuh angka Rp70 ribu per kilogram (Kg). </p>
+              <p className="mt-8 md:mt-0 md:mb-8 w-full ">Harga biji kopi robusta di Kabupaten Lampung Barat, Provinsi Lampung, di tingkat pekebun pada awal Juli 2024 sempat menyentuh angka Rp70 ribu per kilogram (Kg). </p>
               <img src={Img6} alt="" className="w-full h-40 md:h-auto object-cover" />
             </div>
 
