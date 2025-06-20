@@ -15,9 +15,9 @@ export default function Home() {
       <section className="relative bg-[url('/src/assets/images/bg-hero.jpg')] h-screen bg-cover bg-center bg-no-repeat z-1">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-screen">
-            <div className="text-white space-y-6 max-w-xl">
-              <h1 className="text-4xl sm:text-6xl font-bold uppercase tracking-tighter">Learning With more experience</h1>
-              <p className="text-sm sm:text-base">Belajar kopi dengan suasana yang berbeda dan mengasikkan serta dapatkan promo menarik dengan cara gabung sekarang juga</p>
+            <div className="text-white space-y-6">
+              <h1 className="text-4xl sm:text-6xl font-bold uppercase">BELAJAR DENGAN LEBIH BANYAK PENGALAMAN</h1>
+              <p className="text-sm sm:text-base max-w-xl">Belajar kopi dengan suasana yang berbeda dan mengasikkan serta dapatkan promo menarik dengan cara gabung sekarang juga</p>
               <Link to="/class" className="inline-flex items-center bg-white py-3 px-4 text-[#334710] text-xs sm:text-base rounded-lg uppercase">
                 Gabung Sekarang
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
@@ -77,7 +77,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 my-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-8 mt-12">
-              <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl text-[#334710]">Kopi Robusta</h1>
+              <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl font-light">Kopi Robusta</h1>
               <p className="text-[#334710] text-sm lg:text-base">
                 Kopi Robusta merupakan salah satu jenis kopi yang banyak di gemari/ di sukai oleh semua kalangan. Terkenal dengan cita rasa dan aroma wangi kopi yang khas, serta kandungan kafein yang tinggi, menjadikannya pilihan populer
                 untuk dicampur dengan varietas kopi lainnya.
@@ -99,7 +99,7 @@ export default function Home() {
             </div>
 
             <div className="text-center md:text-right flex flex-col items-center md:items-end justify-between">
-              <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl">Liwa, Lampung Barat Komoditi Kopi Robusta Terbaik</h1>
+              <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl font-light">Liwa, Lampung Barat Komoditi Kopi Robusta Terbaik</h1>
               <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
                 Read More{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
@@ -111,7 +111,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 md:mt-24 lg:mt-32">
             <div className="flex flex-col justify-between items-center text-center md:text-left md:items-start">
-              <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl">Kelas Green Grading & Pascapanen</h1>
+              <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl font-light">Kelas Green Grading & Pascapanen</h1>
               <p>
                 Durasi: 2 Jam
                 <br />

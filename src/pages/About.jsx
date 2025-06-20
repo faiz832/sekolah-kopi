@@ -126,7 +126,7 @@ export default function About() {
                     </svg>
                   </Link>
                 </div>
-                <h1 className="uppercase text-4xl md:text-5xl lg:text-6xl text-right">
+                <h1 className="uppercase text-4xl md:text-5xl lg:text-6xl text-right font-light">
                   Lokasi dan <br />
                   kontak
                 </h1>
