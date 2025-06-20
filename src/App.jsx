@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Information from "./pages/Information";
 import Gallery from "./pages/Gallery";
+import Class from "./pages/Class";
 import "./App.css";
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/information" element={<Information />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/class" element={<Class />} />
       </Routes>
       <Footer />
     </Router>
