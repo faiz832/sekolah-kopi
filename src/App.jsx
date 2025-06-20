@@ -10,6 +10,7 @@ import Gallery from "./pages/Gallery";
 import Class from "./pages/Class";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
+import Register from "./pages/Register";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="/class" element={<Class />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
       <Footer />
     </Router>
