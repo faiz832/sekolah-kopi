@@ -59,9 +59,9 @@ export default function Contact() {
             <button type="reset" className="px-6 py-2 border border-[#334710] text-[#334710] rounded-md">
               Batal
             </button>
-            <button type="submit" className="px-6 py-2 bg-[#334710] text-white rounded-md">
+            <a href="/contact" className="px-6 py-2 bg-[#334710] text-white rounded-md">
               Kirim
-            </button>
+            </a>
           </div>
         </form>
       </div>
