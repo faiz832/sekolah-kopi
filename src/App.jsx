@@ -9,6 +9,7 @@ import Information from "./pages/Information";
 import Gallery from "./pages/Gallery";
 import Class from "./pages/Class";
 import FAQ from "./pages/FAQ";
+import Contact from "./pages/Contact";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/class" element={<Class />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>

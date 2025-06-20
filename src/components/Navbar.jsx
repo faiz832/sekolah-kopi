@@ -8,6 +8,8 @@ export default function Navbar() {
   const { pathname } = useLocation(); // untuk active link
 
   useEffect(() => {
+    const excludedPaths = ["/contact", "/register", "/payment"];
+
     const handleScroll = () => {
       if (window.innerWidth >= 768) {
         setIsScrolled(window.scrollY > 10);
@@ -23,6 +25,11 @@ export default function Navbar() {
       }
     };
 
+    if (excludedPaths.includes(pathname)) {
+      setIsScrolled(true); // langsung beri background
+      return; // keluar dari useEffect, tidak perlu listener scroll
+    }
+
     window.addEventListener("scroll", handleScroll);
     window.addEventListener("resize", handleResize);
 
@@ -37,7 +44,7 @@ export default function Navbar() {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [pathname]);
 
   // Untuk styling link aktif
   const isActive = (path) => (pathname === path ? "font-bold text-white" : "text-white");
