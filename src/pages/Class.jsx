@@ -155,7 +155,7 @@ export default function Class() {
             <p>Berikut beberapa testimoni terbaru kami.</p>
             <div className="flex flex-col md:flex-row gap-4">
               <Link className="inline-flex items-center justify-center bg-white border border-[#334710] py-3 px-4 lg:w-[200px] text-xs sm:text-base rounded-lg">Baca Selengkapnya</Link>
-              <Link to="/ulasan" className="inline-flex items-center justify-center bg-[#334710] py-3 px-4 lg:w-[200px] text-white text-xs sm:text-base rounded-lg">
+              <Link to="/review" className="inline-flex items-center justify-center bg-[#334710] py-3 px-4 lg:w-[200px] text-white text-xs sm:text-base rounded-lg">
                 Tulis Ulasan
               </Link>
             </div>

@@ -12,6 +12,7 @@ import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
 import Register from "./pages/Register";
 import Payment from "./pages/Payment";
+import Review from "./pages/Review";
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register />} />
         <Route path="/payment" element={<Payment />} />
+        <Route path="/review" element={<Review />} />
       </Routes>
       <Footer />
     </Router>
