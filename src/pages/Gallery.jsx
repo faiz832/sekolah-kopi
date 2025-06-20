@@ -1,6 +1,13 @@
 import Pattern1 from "../assets/images/pattern1.svg";
+import Pattern2 from "../assets/images/pattern7.png";
+import Pattern3 from "../assets/images/pattern8.png";
 import Img1 from "../assets/images/img11.png";
 import Img2 from "../assets/images/img12.png";
+import Img3 from "../assets/images/img13.png";
+import Img4 from "../assets/images/img14.png";
+import Img5 from "../assets/images/img15.png";
+import Img6 from "../assets/images/img16.png";
+import Img7 from "../assets/images/img17.png";
 
 export default function Gallery() {
   return (
@@ -35,6 +42,38 @@ export default function Gallery() {
           <h1 className="uppercase text-3xl md:text-4xl font-light text-center md:text-right w-full md:w-[370px] tracking-wider">Melihat Lebih Dekat Proses Kopi Lampung Barat</h1>
           <img src={Img2} alt="" />
         </div>
+      </section>
+
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:py-12">
+        <img src={Img3} alt="" className="w-full h-auto md:w-max object-cover" />
+      </section>
+
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:py-12">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-12">
+          <img src={Img4} alt="" className="w-full md:w-max h-auto object-cover" />
+          <p className="text-justify md:text-2xl">
+            Di galeri ini, Anda akan menemukan foto-foto menarik yang menggambarkan perjalanan kopi kami, mulai dari tur kebun kopi yang mempesona, proses pemetikan biji kopi, hingga workshop kopi yang penuh inspirasi. Temukan keindahan
+            alam serta tradisi kopi yang telah turun-temurun di daerah ini.
+          </p>
+        </div>
+      </section>
+
+      <section className="relative z-1">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:py-12 lg:pb-24">
+          <div className="flex flex-col gap-12">
+            <img src={Img5} alt="" className="w-full md:w-1/2 ml-auto" />
+            <img src={Img6} alt="" className="w-full md:w-1/2" />
+          </div>
+        </div>
+
+        <img src={Pattern2} alt="" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full -z-1" />
+      </section>
+
+      <section className="relative z-1">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:pb-50">
+          <img src={Img7} alt="" className="w-full h-auto" />
+        </div>
+        <img src={Pattern3} alt="" className="absolute w-full bottom-0 right-0 -z-1" />
       </section>
     </>
   );
