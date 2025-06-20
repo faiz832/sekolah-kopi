@@ -11,6 +11,7 @@ import Class from "./pages/Class";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
 import Register from "./pages/Register";
+import Payment from "./pages/Payment";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/payment" element={<Payment />} />
       </Routes>
       <Footer />
     </Router>

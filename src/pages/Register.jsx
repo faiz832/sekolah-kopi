@@ -5,7 +5,7 @@ export default function Register() {
   return (
     <div className="min-h-screen flex flex-col justify-between items-center px-4 py-24 md:py-32 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${BackgroundPattern})` }}>
       <div className="w-full max-w-xl bg-white/90 rounded-md p-8 shadow-lg">
-        <h1 className="text-center text-2xl font-semibold text-[#253707] mb-8 uppercase tracking-wide">Registration Form</h1>
+        <h1 className="text-center text-3xl md:text-4xl font-light mb-8 uppercase tracking-wide">Registration Form</h1>
 
         <form className="space-y-4 text-sm">
           <input type="text" placeholder="NAMA" className="w-full border border-[#253707] rounded-sm p-2 placeholder:text-[#253707] text-[#253707] focus:outline-none" />
