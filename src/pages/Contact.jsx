@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Contact() {
   const [selectedReason, setSelectedReason] = useState("");
@@ -59,9 +60,9 @@ export default function Contact() {
             <button type="reset" className="px-6 py-2 border border-[#334710] text-[#334710] rounded-md">
               Batal
             </button>
-            <a href="/contact" className="px-6 py-2 bg-[#334710] text-white rounded-md">
+            <Link to="/contact" className="px-6 py-2 bg-[#334710] text-white rounded-md">
               Kirim
-            </a>
+            </Link>
           </div>
         </form>
       </div>
