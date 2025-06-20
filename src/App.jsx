@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
 import ScrollToTop from "./components/ScrollToTop";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -7,7 +8,7 @@ import About from "./pages/About";
 import Information from "./pages/Information";
 import Gallery from "./pages/Gallery";
 import Class from "./pages/Class";
-import "./App.css";
+import FAQ from "./pages/FAQ";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/information" element={<Information />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/class" element={<Class />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
       <Footer />
     </Router>
