@@ -66,7 +66,7 @@ export default function Class() {
               Di kelas ini, kamu akan belajar cara merawat kebun kopi dengan teknik yang baik dan efisien, mulai dari perawatan kebun, perbenihan, hingga cara mengatasi hama tanaman kopi. Dengan materi yang lengkap, kamu bisa meningkatkan
               hasil kebun kopi yang lebih produktif dan berkualitas.
             </p>
-            <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+            <Link to="/register" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
               Register Now{" "}
               <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                 <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
@@ -81,7 +81,7 @@ export default function Class() {
               Di kelas ini, kamu akan mempelajari cara-cara setelah panen kopi, seperti grading (penyortiran kopi) dan pengolahan kopi untuk menghasilkan kopi yang berkualitas. Kamu juga akan belajar cara mengolah produk kopi turunan supaya
               lebih bernilai.
             </p>
-            <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+            <Link to="/register" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
               Register Now{" "}
               <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                 <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
@@ -113,7 +113,7 @@ export default function Class() {
             <p className="font-light">
               Kelas ini cocok buat kamu yang ingin belajar cara memanggang kopi untuk mendapatkan rasa yang pas dan sesuai selera pasar. Kamu akan menguasai teknik-teknik pemanggangan yang bisa menghasilkan kopi dengan berbagai cita rasa.
             </p>
-            <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+            <Link to="/register" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
               Register Now{" "}
               <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                 <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
@@ -125,7 +125,7 @@ export default function Class() {
         <div className="flex flex-col-reverse md:flex-row gap-8 p-8 bg-[#334710B2] text-white">
           <div className="w-full md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start justify-between">
             <p className="font-light">Kamu akan belajar berbagai metode penyeduhan kopi seperti V60, French Press, Chemex, dan Vietnam Drip. Di kelas ini, kamu akan tahu cara menyeduh kopi yang benar supaya rasanya lebih nikmat.</p>
-            <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+            <Link to="/register" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
               Register Now{" "}
               <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                 <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
@@ -155,7 +155,9 @@ export default function Class() {
             <p>Berikut beberapa testimoni terbaru kami.</p>
             <div className="flex flex-col md:flex-row gap-4">
               <Link className="inline-flex items-center justify-center bg-white border border-[#334710] py-3 px-4 lg:w-[200px] text-xs sm:text-base rounded-lg">Baca Selengkapnya</Link>
-              <Link className="inline-flex items-center justify-center bg-[#334710] py-3 px-4 lg:w-[200px] text-white text-xs sm:text-base rounded-lg">Tulis Ulasan</Link>
+              <Link to="/ulasan" className="inline-flex items-center justify-center bg-[#334710] py-3 px-4 lg:w-[200px] text-white text-xs sm:text-base rounded-lg">
+                Tulis Ulasan
+              </Link>
             </div>
           </div>
 

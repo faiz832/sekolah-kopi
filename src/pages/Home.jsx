@@ -47,7 +47,7 @@ export default function Home() {
             <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl text-[#334710]">
               Tentang <br /> Kami
             </h1>
-            <Link href="#" className="inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
+            <Link to="/about" className="inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
               Learn More{" "}
               <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                 <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
@@ -82,7 +82,7 @@ export default function Home() {
                 Kopi Robusta merupakan salah satu jenis kopi yang banyak di gemari/ di sukai oleh semua kalangan. Terkenal dengan cita rasa dan aroma wangi kopi yang khas, serta kandungan kafein yang tinggi, menjadikannya pilihan populer
                 untuk dicampur dengan varietas kopi lainnya.
               </p>
-              <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+              <Link to="/information" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
                 Learn More{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
@@ -100,7 +100,7 @@ export default function Home() {
 
             <div className="text-center md:text-right flex flex-col items-center md:items-end justify-between">
               <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl font-light">Liwa, Lampung Barat Komoditi Kopi Robusta Terbaik</h1>
-              <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+              <Link to="/information" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
                 Read More{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
@@ -117,7 +117,7 @@ export default function Home() {
                 <br />
                 Harga: Rp 150.000,-
               </p>
-              <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+              <Link to="/class" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
                 Register Now{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />

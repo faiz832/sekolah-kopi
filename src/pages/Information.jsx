@@ -81,7 +81,7 @@ export default function Information() {
 
             <div className="text-center md:text-right flex flex-col items-center md:items-end justify-between">
               <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl">Liwa, Lampung Barat Komoditi Kopi Robusta Terbaik</h1>
-              <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+              <Link to="/information" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
                 Read More{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
@@ -93,7 +93,7 @@ export default function Information() {
           <div className="flex flex-col-reverse md:flex-row gap-8">
             <div className="text-center md:text-left flex flex-col items-center md:items-start justify-between">
               <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl w-full md:w-md lg:w-lg">Mengenal komoditas kopi dan kebudayaan Lampung Barat</h1>
-              <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+              <Link to="/information" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
                 Read More{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
@@ -115,7 +115,7 @@ export default function Information() {
 
             <div className="text-center md:text-right flex flex-col items-center md:items-end justify-between">
               <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl">Harga Kopi Robusta di Lampung Barat 1 September 2024</h1>
-              <Link className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+              <Link to="/information" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
                 Read More{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
