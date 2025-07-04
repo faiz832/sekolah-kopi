@@ -8,7 +8,7 @@ export default function Navbar() {
   const { pathname } = useLocation(); // untuk active link
 
   useEffect(() => {
-    const excludedPaths = ["/contact", "/register", "/payment"];
+    const excludedPaths = ["/contact", "/register", "/payment", "/class"];
 
     const handleScroll = () => {
       if (window.innerWidth >= 768) {
