@@ -7,22 +7,32 @@ import Img3 from "../assets/images/img8.png";
 import Img4 from "../assets/images/img4.jpg";
 import Img5 from "../assets/images/img9.png";
 import Img6 from "../assets/images/img10.png";
+import Img7 from "../assets/images/img3.png";
 
 export default function Information() {
   return (
     <>
-      <section className="relative bg-[url('/src/assets/images/bg-information.png')] h-screen bg-cover bg-center bg-no-repeat z-1">
-        <div className="flex justify-center items-center h-full w-full px-4">
-          <div className="text-white text-center w-full md:w-4xl">
-            <h1 className="text-4xl sm:text-6xl uppercase font-bold">Semua Tentang Sekolah Kopi: Info & Artikel</h1>
-            <p className="text-sm md:text-xl mt-4">Semua yang perlu Anda ketahui dan ikuti tentang kami ada di sini.</p>
+      <section className="bg-[url('/src/assets/images/bg-hero2.png')] bg-cover bg-center bg-no-repeat">
+        <div className="flex justify-center items-center">
+          <div className="px-4 text-center pt-24">
+            <h1 className="font-semibold text-4xl sm:text-5xl xl:text-7xl lg:-mb-4 lg:mr-90">
+              Semua Tentang <span className="font-bilbo text-5xl xl:text-8xl">Sekolah</span>
+            </h1>
+            <h1 className="font-semibold text-4xl sm:text-5xl xl:text-7xl lg:ml-90">
+              <span className="font-bilbo text-5xl xl:text-8xl">Kopi</span> Info & Artikel
+            </h1>
+            <p className="font-light md:text-lg lg:text-xl my-4">Semua yang perlu Anda ketahui dan ikuti tentang kami ada di sini.</p>
           </div>
         </div>
-
-        <img src={Pattern1} alt="" className="absolute w-full -bottom-50 md:-bottom-90 lg:-top-50 right-0 -z-1" />
       </section>
 
-      <section className="relative z-1">
+      <section className="relative bg-[url('/src/assets/images/bg-information.png')] h-[calc(100vh-200px)] bg-cover bg-center bg-no-repeat z-1">
+        <div className="flex justify-center items-center h-full w-full px-4"></div>
+
+        <img src={Pattern1} alt="" className="absolute w-full -bottom-50 md:-bottom-110 lg:-bottom-150 xl:-top-100 right-0 -z-1" />
+      </section>
+
+      <section className="relative z-1 bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat">
         <img src={Img1} alt="" className="hidden lg:block absolute top-20 left-0 -z-1" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:pt-32 md:pb-40">
@@ -63,20 +73,24 @@ export default function Information() {
         </div>
       </section>
 
-      <section className="relative z-1">
+      <section className="relative z-1 bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat">
         <img src={Pattern2} alt="" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full -z-1" />
+        <img src={Img7} alt="" className="hidden lg:block absolute lg:-bottom-20 xl:-bottom-70 right-0 w-80 xl:w-[600px]" />
 
         <div className="flex justify-center items-center h-[300px]">
-          <h1 className="uppercase font-light text-3xl md:text-6xl">Artikel Lainnya</h1>
+          <div className="text-center">
+            <h1 className="font-bilbo text-7xl md:text-8xl lg:-mb-4 lg:mr-40">Artikel</h1>
+            <h1 className="font-semibold text-5xl md:text-6xl lg:ml-40 tracking-wide">LAINNYA</h1>
+          </div>
         </div>
       </section>
 
-      <section className="relative overflow-hidden">
+      <section className="relative overflow-hidden bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24 md:py-24 md:my-24 space-y-12 md:space-y-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="">
               <img src={Img4} alt="" className="w-full h-40 object-cover" />
-              <p className="mt-8 w-full lg:w-1/3">Indonesia merupakan negara yang kaya akan hasil buminya, salah satunya adalah biji kopi terbaik. </p>
+              <p className="mt-8 w-full text-justify">Indonesia merupakan negara yang kaya akan hasil buminya, salah satunya adalah biji kopi terbaik. </p>
             </div>
 
             <div className="text-center md:text-right flex flex-col items-center md:items-end justify-between">
@@ -102,14 +116,14 @@ export default function Information() {
             </div>
 
             <div className="flex flex-col-reverse md:flex-col">
-              <p className="mt-8 md:mt-0 md:mb-20 w-full lg:w-3/4 md:text-right ml-auto">Kopi merupakan salah satu komoditas perkebunan unggulan Provinsi Lampung. Sebagian besar biji kopi asal Lampung  telah diekspor ke berbagai negara.</p>
+              <p className="mt-8 md:mt-0 md:mb-20 w-full lg:w-3/4 ml-auto text-justify">Kopi merupakan salah satu komoditas perkebunan unggulan Provinsi Lampung. Sebagian besar biji kopi asal Lampung  telah diekspor ke berbagai negara.</p>
               <img src={Img5} alt="" className="w-full h-40 object-cover" />
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex flex-col-reverse md:flex-col">
-              <p className="mt-8 md:mt-0 md:mb-8 w-full ">Harga biji kopi robusta di Kabupaten Lampung Barat, Provinsi Lampung, di tingkat pekebun pada awal Juli 2024 sempat menyentuh angka Rp70 ribu per kilogram (Kg). </p>
+              <p className="mt-8 md:mt-0 md:mb-8 w-full text-justify">Harga biji kopi robusta di Kabupaten Lampung Barat, Provinsi Lampung, di tingkat pekebun pada awal Juli 2024 sempat menyentuh angka Rp70 ribu per kilogram (Kg). </p>
               <img src={Img6} alt="" className="w-full h-40 md:h-auto object-cover" />
             </div>
 
