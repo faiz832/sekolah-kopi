@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
   --font-inter: "Inter", sans-serif;
+  --font-bilbo: "Bilbo Swash Caps", cursive;
 }
 
 @layer base {
@@ -21,4 +23,13 @@
   ::selection {
     background: #9eaf86;
   }
+}
+
+@utility font-inter {
+  font-family: var(--font-inter);
+}
+@utility font-bilbo {
+  font-family: var(--font-bilbo);
+  font-weight: 400;
+  text-transform: capitalize;
 }
