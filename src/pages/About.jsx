@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Pattern1 from "../assets/images/pattern11.png";
 import Pattern4 from "../assets/images/pattern4.png";
 import Img1 from "../assets/images/img18.png";
@@ -134,18 +133,18 @@ export default function About() {
               </div>
 
               <div className="flex justify-center gap-4 mt-12">
-                <Link href="#" className="inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
+                <a href="https://maps.app.goo.gl/KxjF7roCQyDH6APD8" target="_blank" className="inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
                   Maps{" "}
                   <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                     <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
                   </svg>
-                </Link>
-                <Link href="#" className="inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
+                </a>
+                <a href="https://wa.me/6282120834658" target="_blank" className="inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
                   WhatsApp{" "}
                   <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                     <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
                   </svg>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
