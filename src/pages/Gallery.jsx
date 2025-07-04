@@ -28,12 +28,12 @@ export default function Gallery() {
         <img src={Pattern1} alt="" className="absolute w-full -bottom-50 md:-bottom-130 lg:top-50 right-0 -z-1" />
       </section>
 
-      <div className="bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat">
+      <div className="relative bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat">
         <div className="relative flex gap-8 z-1 py-24">
           <Slider />
         </div>
 
-        <div className="pb-12 md:py-24">
+        <div className="px-4 pb-12 md:py-24">
           <h1 className="font-light text-center text-xl md:text-2xl w-full max-w-3xl mx-auto">
             Di sini, Anda dapat menjelajahi berbagai momen edukatif dan menarik yang terjadi di Sekolah Kopi. Setiap gambar dan video kami hadirkan untuk membawa Anda lebih dekat dengan proses pembuatan kopi yang unik, keindahan alam
             Lampung Barat, serta pengalaman wisata edukatif yang kami tawarkan.
@@ -41,19 +41,27 @@ export default function Gallery() {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
-          <div className="flex flex-wrap gap-12">
-            <img src={Img7} alt="" className="w-full h-70 object-cover" />
-            <p className="text-justify text-2xl">Di galeri ini, Anda akan menemukan foto-foto menarik yang menggambarkan perjalanan kopi kami, mulai dari tur kebun kopi yang mempesona, proses pemetikan biji kopi</p>
+          <div className="flex flex-col md:flex-row gap-12">
+            <img src={Img7} alt="" className="w-full md:max-w-1/2 h-70 object-cover" />
+            <p className="text-justify text-xl md:text-2xl">Di galeri ini, Anda akan menemukan foto-foto menarik yang menggambarkan perjalanan kopi kami, mulai dari tur kebun kopi yang mempesona, proses pemetikan biji kopi</p>
           </div>
 
-          <div className="flex flex-wrap items-center gap-12 mt-12">
-            <p className="text-justify text-2xl w-full md:max-w-1/2">hingga workshop kopi yang penuh inspirasi. Temukan keindahan alam serta tradisi kopi yang telah turun-temurun di daerah ini.</p>
-            <div className="flex gap-8 w-full md:max-w-1/2">
-              <img src={Img1} alt="" className="w-full md:max-w-1/2 aspect-square object-cover" />
-              <img src={Img2} alt="" className="w-full md:max-w-1/2 aspect-square object-cover" />
+          <div className="flex flex-col md:flex-row items-center gap-12 mt-12">
+            <p className="text-justify text-xl md:text-2xl w-full lg:max-w-1/2">hingga workshop kopi yang penuh inspirasi. Temukan keindahan alam serta tradisi kopi yang telah turun-temurun di daerah ini.</p>
+            <div className="flex flex-col lg:flex-row justify-between gap-8 w-full lg:max-w-1/2">
+              <img src={Img1} alt="" className="w-full lg:max-w-[210px] xl:max-w-[270px] aspect-square object-cover" />
+              <img src={Img2} alt="" className="w-full lg:max-w-[210px] xl:max-w-[270px] aspect-square object-cover" />
             </div>
           </div>
+
+          <div className="pt-8 lg:pt-24">
+            <img src={Img3} alt="" className="w-full h-auto object-cover" />
+          </div>
+
+          <div className="hidden md:block h-[250px]"></div>
         </div>
+
+        <img src={Pattern2} alt="" className="absolute w-full bottom-0 left-0 -z-1" />
       </div>
     </>
   );
