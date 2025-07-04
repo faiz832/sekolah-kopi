@@ -36,44 +36,46 @@ export default function Review() {
       </div>
 
       {/* Form Section */}
-      <div className="max-w-5xl mx-auto px-4 py-12">
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-2">Kirimkan Testimoni Anda</h2>
-        <p className="text-gray-700 mb-8">Pikiran Anda penting bagi kami.</p>
+      <div className="bg-[url('/src/assets/images/bg-hero2.png')] bg-cover bg-center bg-no-repeat">
+        <div className="max-w-5xl mx-auto px-4 py-12">
+          <h2 className="text-2xl sm:text-3xl font-semibold mb-2">Kirimkan Testimoni Anda</h2>
+          <p className="text-gray-700 mb-8">Pikiran Anda penting bagi kami.</p>
 
-        <form onSubmit={handleSubmit} className="space-y-8">
-          <div>
-            <label className="block font-medium mb-1">Nama Kamu</label>
-            <input type="text" placeholder="Masukkan Nama Kamu" className="w-full border rounded-md p-3 text-sm" value={name} onChange={(e) => setName(e.target.value)} required />
-            <small className="text-gray-500 mt-1 block">Nama Anda akan ditampilkan bersama testimoni Anda.</small>
-          </div>
-
-          <div>
-            <label className="block font-medium mb-1">Ulasan Kamu</label>
-            <textarea placeholder="Tulis Ulasan Kamu" className="w-full border rounded-md p-3 text-sm h-32 resize-none" value={review} onChange={(e) => setReview(e.target.value)} required />
-            <small className="text-gray-500 mt-1 block">Mohon sampaikan masukan Anda yang jujur.</small>
-          </div>
-
-          <div>
-            <label className="block font-medium mb-2">Peringkat</label>
-            <div className="flex items-center gap-2">
-              {stars.map((star) => (
-                <button key={star} type="button" onClick={() => setRating(star)} className={`text-2xl ${star <= rating ? "text-yellow-400" : "text-gray-300"}`}>
-                  ★
-                </button>
-              ))}
+          <form onSubmit={handleSubmit} className="space-y-8">
+            <div>
+              <label className="block font-medium mb-1">Nama Kamu</label>
+              <input type="text" placeholder="Masukkan Nama Kamu" className="w-full border rounded-md p-3 text-sm" value={name} onChange={(e) => setName(e.target.value)} required />
+              <small className="text-gray-500 mt-1 block">Nama Anda akan ditampilkan bersama testimoni Anda.</small>
             </div>
-            <small className="text-gray-500 mt-1 block">Nilai pengalaman Anda.</small>
-          </div>
 
-          <div className="flex gap-4">
-            <button type="button" onClick={handleReset} className="px-6 py-2 border border-black text-black rounded-md hover:bg-gray-100">
-              Hapus
-            </button>
-            <button type="submit" className="px-6 py-2 bg-[#253707] text-white rounded-md hover:bg-[#1c2c05]">
-              Kirim
-            </button>
-          </div>
-        </form>
+            <div>
+              <label className="block font-medium mb-1">Ulasan Kamu</label>
+              <textarea placeholder="Tulis Ulasan Kamu" className="w-full border rounded-md p-3 text-sm h-32 resize-none" value={review} onChange={(e) => setReview(e.target.value)} required />
+              <small className="text-gray-500 mt-1 block">Mohon sampaikan masukan Anda yang jujur.</small>
+            </div>
+
+            <div>
+              <label className="block font-medium mb-2">Peringkat</label>
+              <div className="flex items-center gap-2">
+                {stars.map((star) => (
+                  <button key={star} type="button" onClick={() => setRating(star)} className={`text-2xl ${star <= rating ? "text-yellow-400" : "text-gray-300"}`}>
+                    ★
+                  </button>
+                ))}
+              </div>
+              <small className="text-gray-500 mt-1 block">Nilai pengalaman Anda.</small>
+            </div>
+
+            <div className="flex gap-4">
+              <button type="button" onClick={handleReset} className="px-6 py-2 border border-black text-black rounded-md hover:bg-gray-100">
+                Hapus
+              </button>
+              <button type="submit" className="px-6 py-2 bg-[#253707] text-white rounded-md hover:bg-[#1c2c05]">
+                Kirim
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );
