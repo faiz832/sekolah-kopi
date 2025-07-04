@@ -72,16 +72,17 @@ export default function About() {
       <section className="">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="bg-[url('/src/assets/images/bg-about3.png')] bg-cover bg-center bg-no-repeat">
-            <div className="py-24 px-4 md:px-12 lg:px-20 xl:px-40">
-              <h1 className="text-center md:text-left text-white uppercase text-4xl sm:text-6xl font-bold">
-                visi dan <br />
-                misi
+            <div className="flex justify-center items-center h-full min-h-70">
+              <h1 className="text-center text-white text-4xl sm:text-6xl font-semibold leading-5 md:leading-10">
+                VISI{"\u00A0\u00A0\u00A0\u00A0\u00A0"} <br />
+                <span className="font-bilbo text-5xl sm:text-7xl">Dan</span> <br />
+                {"\u00A0\u00A0\u00A0\u00A0\u00A0"} MISI
               </h1>
             </div>
           </div>
 
           <div className="bg-[#253707B2] text-white">
-            <div className="py-12 md:py-24 px-4 sm:px-8 md:px-12">
+            <div className="py-12 md:pt-24 md:pb-42 px-4 sm:px-8 md:px-12">
               <h1 className="uppercase text-xl">Visi</h1>
               <p className="mt-4">Menjadi pusat pengembangan kopi unggul yang berperan dalam pemberdayaan masyarakat Lampung Barat melalui pendidikan dan pelatihan yang berbasis pada teknologi dan kearifan lokal.</p>
               <h1 className="uppercase mt-8 text-xl">Misi</h1>
@@ -108,8 +109,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="relative bg-[url('/src/assets/images/bg-about4.png')] bg-cover bg-center bg-no-repeat z-1">
-        <div className="absolute w-full h-full bg-gradient-to-b from-white to-transparent -z-1"></div>
+      <section className="relative bg-[url('/src/assets/images/bg-hero2.png')] bg-cover bg-center bg-no-repeat z-1">
         <img src={Pattern4} alt="" className="absolute w-full top-0 right-0 -z-1" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen py-12">
@@ -118,32 +118,34 @@ export default function About() {
               <img src={Peta} alt="" />
             </div>
 
-            <div className="space-y-12 md:space-y-40">
-              <div className="flex flex-wrap gap-8">
-                <div className="flex flex-col gap-4">
-                  <Link href="#" className="inline-flex w-max items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
-                    Maps{" "}
-                    <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
-                      <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
-                    </svg>
-                  </Link>
-                  <Link href="#" className="inline-flex w-max items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
-                    WhatsApp{" "}
-                    <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
-                      <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
-                    </svg>
-                  </Link>
-                </div>
-                <h1 className="uppercase text-4xl md:text-5xl lg:text-6xl text-right font-light">
-                  Lokasi dan <br />
-                  kontak
+            <div className="">
+              <div className="flex justify-end mb-12">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl text-right font-light md:leading-10">
+                  LOKASI DAN <br />
+                  <span className="font-bilbo text-5xl md:text-8xl">Kontak</span>
                 </h1>
               </div>
 
-              <div className="text-white space-y-4">
+              <div className="space-y-4">
                 <p>Alamat: Jl. Teratai No. 7 Way Mengaku, Liwa, Lampung Barat, 3481 </p>
                 <p>Telepon: (0728) 21120 Faks: (0728) 21499</p>
+                <p>Faks: (0728) 21499</p>
                 <p> Email: sekolahkopi@gmail.com</p>
+              </div>
+
+              <div className="flex justify-center gap-4 mt-12">
+                <Link href="#" className="inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
+                  Maps{" "}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
+                    <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
+                  </svg>
+                </Link>
+                <Link href="#" className="inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
+                  WhatsApp{" "}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
+                    <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
+                  </svg>
+                </Link>
               </div>
             </div>
           </div>

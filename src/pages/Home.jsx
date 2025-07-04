@@ -65,7 +65,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[url('/src/assets/images/bg-img1.png')] h-screen bg-cover bg-center bg-no-repeat">
+      <section className="relative bg-[url('/src/assets/images/bg-img1.png')] h-screen bg-cover bg-center bg-no-repeat z-1">
         <div className="flex justify-center items-center h-screen">
           <div className="text-white text-center space-y-4">
             <p className="text-base md:text-2xl lg:text-4xl">Jumlah lahan perkebunan kopi di lampungbarat</p>
@@ -75,11 +75,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat z-1">
+      <section className="relative bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat z-1">
         <img src={Pattern2} alt="" className="absolute w-full -top-10 md:-top-30 lg:-top-50 right-0 -z-1" />
-        <img src={Img3} alt="" className="absolute top-0 -right-12 -rotate-35 -z-1 w-80 h-auto md:w-[500px]" />
+        <img src={Img3} alt="" className="absolute -top-30 xl:-top-80 right-0 z-1 w-60 md:w-100 xl:w-[700px]" />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-12 md:pb-32 mt-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-12 md:pb-32">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-8 mt-12">
               <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl font-light">
