@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Pattern1 from "../assets/images/pattern11.png";
 import Pattern4 from "../assets/images/pattern4.png";
-import Img1 from "../assets/images/img3.png";
+import Img1 from "../assets/images/img18.png";
 import HeroImg from "../assets/images/hero-img.svg";
 import Peta from "../assets/images/peta.png";
 
@@ -43,7 +43,7 @@ export default function About() {
           </div>
         </div>
 
-        <img src={Img1} alt="" className="hidden md:block absolute -bottom-80 -left-30 rotate-120 -z-1 w-80 h-auto md:w-[500px]" />
+        <img src={Img1} alt="" className="hidden md:block absolute -bottom-100 left-0 -z-1 w-80 h-auto md:w-[600px]" />
       </section>
 
       <section className="">
