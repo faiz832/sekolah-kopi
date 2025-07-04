@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import BackgroundPattern from "../assets/images/pattern1.svg"; // Sesuaikan path sesuai gambarmu
+import BackgroundPattern from "../assets/images/pattern1.png"; // Sesuaikan path sesuai gambarmu
 
 export default function Register() {
   return (

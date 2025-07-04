@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import BackgroundPattern from "../assets/images/pattern1.svg";
+import BackgroundPattern from "../assets/images/pattern1.png";
 import QRImage from "../assets/images/qr-code.png";
 
 export default function Payment() {

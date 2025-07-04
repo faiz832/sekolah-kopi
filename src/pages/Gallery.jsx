@@ -1,4 +1,4 @@
-import Pattern1 from "../assets/images/pattern1.svg";
+import Pattern1 from "../assets/images/pattern1.png";
 import Pattern2 from "../assets/images/pattern7.png";
 import Pattern3 from "../assets/images/pattern8.png";
 import Img1 from "../assets/images/img11.png";

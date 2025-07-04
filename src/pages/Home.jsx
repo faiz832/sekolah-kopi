@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Pattern1 from "../assets/images/pattern1.svg";
-import Pattern2 from "../assets/images/pattern2.svg";
+import Pattern1 from "../assets/images/pattern1.png";
+import Pattern2 from "../assets/images/pattern2.png";
 import HeroImg from "../assets/images/hero-img.svg";
 import Img1 from "../assets/images/img1.jpg";
 import Img2 from "../assets/images/img2.jpg";
