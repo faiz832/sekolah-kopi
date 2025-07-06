@@ -1,11 +1,18 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next"; // ✅ Tambahkan
 import Logo from "../assets/icons/brand-logo.svg";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const { pathname } = useLocation(); // untuk active link
+  const { pathname } = useLocation();
+
+  const { t, i18n } = useTranslation("navbar");
+  const toggleLanguage = () => {
+    const newLang = i18n.language === "id" ? "en" : "id";
+    i18n.changeLanguage(newLang);
+  };
 
   useEffect(() => {
     const excludedPaths = ["/contact", "/register", "/payment", "/class", "/information", "/gallery"];
@@ -17,7 +24,6 @@ export default function Navbar() {
     };
 
     const handleResize = () => {
-      // Jika resize ke mobile, langsung beri background
       if (window.innerWidth < 768) {
         setIsScrolled(true);
       } else {
@@ -26,14 +32,13 @@ export default function Navbar() {
     };
 
     if (excludedPaths.includes(pathname)) {
-      setIsScrolled(true); // langsung beri background
-      return; // keluar dari useEffect, tidak perlu listener scroll
+      setIsScrolled(true);
+      return;
     }
 
     window.addEventListener("scroll", handleScroll);
     window.addEventListener("resize", handleResize);
 
-    // Set awal saat mount
     if (window.innerWidth < 768) {
       setIsScrolled(true);
     } else {
@@ -46,15 +51,14 @@ export default function Navbar() {
     };
   }, [pathname]);
 
-  // Untuk styling link aktif
   const isActive = (path) => (pathname === path ? "font-bold text-white" : "text-white");
 
   const menuItem = [
-    { name: "Utama", link: "/" },
-    { name: "Tentang", link: "/about" },
-    { name: "Informasi", link: "/information" },
-    { name: "Galeri", link: "/gallery" },
-    { name: "Kelas", link: "/class" },
+    { name: t("menu.home"), link: "/" },
+    { name: t("menu.about"), link: "/about" },
+    { name: t("menu.information"), link: "/information" },
+    { name: t("menu.gallery"), link: "/gallery" },
+    { name: t("menu.class"), link: "/class" },
   ];
 
   return (
@@ -69,18 +73,22 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             {menuItem.map((item, index) => (
               <Link key={index} to={item.link} className={`block uppercase ${isActive(item.link)}`}>
                 {item.name}
               </Link>
             ))}
+            {/* Toggle Language */}
+            <button onClick={toggleLanguage} className="text-xs text-white border px-2 py-1 rounded cursor-pointer">
+              {i18n.language === "id" ? "EN" : "ID"}
+            </button>
           </div>
 
           {/* Burger Button (Mobile) */}
           <div className="md:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="text-white focus:outline-none">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {isOpen ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /> : <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />}
               </svg>
             </button>
@@ -95,6 +103,10 @@ export default function Navbar() {
             {item.name}
           </Link>
         ))}
+        {/* Toggle in Mobile */}
+        <button onClick={toggleLanguage} className="text-xs text-white border px-2 py-1 rounded mb-4">
+          {i18n.language === "id" ? "EN" : "ID"}
+        </button>
       </div>
     </nav>
   );
