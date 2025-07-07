@@ -5,28 +5,32 @@ import Pattern2 from "../assets/images/pattern9.png";
 import ClassImg from "../assets/images/bg-class.png";
 import ClassImg2 from "../assets/images/bg-class2.png";
 import ProfilePlaceholder from "../assets/images/profile.webp";
+import { useTranslation } from "react-i18next";
 
 export default function Class() {
+  const { t } = useTranslation("class");
+  const { t: t2 } = useTranslation("testimonials");
+
   const testimonials = [
     {
       name: "Alin",
-      text: "Ilmunya sangat praktis dan instrukturnya sabar sekali. Dulu saya hanya suka kopi, sekarang saya percaya diri berdiri di belakang mesin espresso. Setelah lulus dari sini, saya langsung diterima kerja di kedai kopi impian saya. Terima kasih",
+      text: t2("alin"),
     },
     {
       name: "Mario",
-      text: "Di sini saya tidak hanya belajar menyeduh, tapi juga memahami bisnis kopi dari hulu ke hilir. Pengetahuan tentang roasting dan cupping benar-benar membuka mata.",
+      text: t2("mario"),
     },
     {
       name: "Roby",
-      text: "Tumbuh besar di kebun kopi, saya pikir saya sudah tahu segalanya. Ternyata saya salah. Sekolah ini mengajarkan saya bagaimana mengolah",
+      text: t2("roby"),
     },
     {
       name: "Ridwan",
-      text: "Kelas akhir pekannya sangat menyenangkan!  Suasananya santai, tapi ilmunya sangat mendalam. Cara saya menikmati kopi di rumah sekarang benar-benar berbeda. Saya jadi bisa lebih menghargai setiap cangkir kopi yang saya minum.",
+      text: t2("ridwan"),
     },
     {
       name: "Ahmad",
-      text: "Saya mengambil kelas penyangraian (roasting) untuk meningkatkan skill. Pengetahuan instruktur tentang sains di balik roasting sangat dalam. Diskusi dan praktik langsungnya benar-benar membantu saya memahami prosesnya secara detail. Sangat direkomendasikan untuk yang ingin naik level",
+      text: t2("ahmad"),
     },
   ];
 
@@ -38,9 +42,9 @@ export default function Class() {
             <div className="flex flex-col md:flex-row items-center justify-center gap-6">
               <div className="relative max-w-lg lg:pb-24">
                 <h1 className="text-center md:text-left text-4xl sm:text-5xl lg:text-6xl font-bold">
-                  PILIHAN <span className="font-bilbo text-5xl sm:text-6xl lg:text-7xl xl:text-8xl">Program</span> KELAS
+                  {t("title")} <span className="font-bilbo text-5xl sm:text-6xl lg:text-7xl xl:text-8xl">{t("title2")}</span> {t("title3")}
                 </h1>
-                <p className="text-center md:text-left sm:text-xl lg:text-2xl font-light mt-8">Pelajari detail setiap kelas, jadwal, dan biaya untuk memulai perjalanan kopi Anda bersama kami.</p>
+                <p className="text-center md:text-left sm:text-xl lg:text-2xl font-light mt-8">{t("desc")}</p>
 
                 <img src={ClassImg2} alt="" className="hidden lg:block absolute -bottom-21 right-0" />
               </div>
@@ -54,32 +58,24 @@ export default function Class() {
         </section>
 
         <section className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24 z-1">
-          <p className="text-center md:text-xl">
-            Nikmati pengalaman belajar kopi yang autentik dan mendalam di jantung perkebunan robusta Lampung Barat. Kami menawarkan berbagai paket kelas yang dirancang untuk pecinta kopi dari berbagai level, mulai dari pemula hingga
-            profesional. Temukan rahasia di balik secangkir kopi robusta berkualitas, pelajari teknik menyeduh yang tepat, hingga menguasai seni roasting dan cupping. Bergabunglah bersama kami dan tingkatkan pengetahuan serta keterampilan
-            kopi Anda di lingkungan yang ramah dan profesional, langsung dari sumbernya!
-          </p>
+          <p className="text-center md:text-xl">{t("intro")}</p>
         </section>
 
         <section className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 md:pb-24 space-y-12 z-10">
           <div className="flex flex-col md:flex-row gap-8 p-8 bg-[#334710B2] text-white">
             <div className="w-full md:w-1/2 space-y-4 md:space-y-12 text-center md:text-left">
-              <h1 className="uppercase text-2xl md:text-4xl font-light">Kelas Budidaya Kebun Produktif</h1>
-              <p className="font-light">
-                Pelajari Cara Merawat Kebun Kopi yang Efisien dan <br /> Menghasilkan
-              </p>
+              <h1 className="uppercase text-2xl md:text-4xl font-light">{t("class1.title")}</h1>
+              <p className="font-light">{t("class1.tagline")}</p>
               <p>
-                Durasi: 2 Jam <br />
-                Harga: Rp 150.000,-
+                {t("class1.duration")}
+                <br />
+                {t("class1.price")}
               </p>
             </div>
             <div className="w-full md:w-1/2 text-center md:text-right flex flex-col items-center md:items-end justify-between">
-              <p className="font-light text-justify">
-                Di kelas ini, kamu akan belajar cara merawat kebun kopi dengan teknik yang baik dan efisien, mulai dari perawatan kebun, perbenihan, hingga cara mengatasi hama tanaman kopi. Dengan materi yang lengkap, kamu bisa meningkatkan
-                hasil kebun kopi yang lebih produktif dan berkualitas.
-              </p>
+              <p className="font-light text-justify">{t("class1.desc")}</p>
               <Link to="/register" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
-                Register Now{" "}
+                {t("class1.cta")}{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
                 </svg>
@@ -89,12 +85,9 @@ export default function Class() {
 
           <div className="flex flex-col-reverse md:flex-row gap-8 p-8 bg-[#334710B2] text-white">
             <div className="w-full md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start justify-between">
-              <p className="font-light text-justify">
-                Di kelas ini, kamu akan mempelajari cara-cara setelah panen kopi, seperti grading (penyortiran kopi) dan pengolahan kopi untuk menghasilkan kopi yang berkualitas. Kamu juga akan belajar cara mengolah produk kopi turunan
-                supaya lebih bernilai.
-              </p>
+              <p className="font-light text-justify">{t("class2.desc")}</p>
               <Link to="/register" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
-                Register Now{" "}
+                {t("class2.cta")}{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
                 </svg>
@@ -102,31 +95,28 @@ export default function Class() {
             </div>
 
             <div className="w-full md:w-1/2 space-y-4 md:space-y-12 text-center md:text-right">
-              <h1 className="uppercase text-2xl md:text-4xl font-light">Kelas Green Grading & Pascapanen</h1>
-              <p className="font-light">
-                Proses Setelah Panen yang Membuat Kopimu Lebih <br /> Berkualitas
-              </p>
+              <h1 className="uppercase text-2xl md:text-4xl font-light">{t("class2.title")}</h1>
+              <p className="font-light">{t("class2.tagline")}</p>
               <p>
-                Durasi: 4 Jam <br /> Harga: Rp 300.000,-
+                {t("class2.duration")}
+                <br /> {t("class2.price")}
               </p>
             </div>
           </div>
 
           <div className="flex flex-col md:flex-row gap-8 p-8 bg-[#334710B2] text-white">
             <div className="w-full md:w-1/2 space-y-4 md:space-y-12 text-center md:text-left">
-              <h1 className="uppercase text-2xl md:text-4xl font-light">Kelas Roasting</h1>
-              <p className="font-light italic">Pelajari Cara Memanggang Kopi dengan Teknik yang Tepat</p>
+              <h1 className="uppercase text-2xl md:text-4xl font-light">{t("class3.title")}</h1>
+              <p className="font-light italic">{t("class3.tagline")}</p>
               <p>
-                Durasi: 2 Jam <br />
-                Harga: Rp 300.000,-
+                {t("class3.duration")} <br />
+                {t("class3.price")}
               </p>
             </div>
             <div className="w-full md:w-1/2 text-center md:text-right flex flex-col items-center md:items-end justify-between">
-              <p className="font-light text-justify">
-                Kelas ini cocok buat kamu yang ingin belajar cara memanggang kopi untuk mendapatkan rasa yang pas dan sesuai selera pasar. Kamu akan menguasai teknik-teknik pemanggangan yang bisa menghasilkan kopi dengan berbagai cita rasa.
-              </p>
+              <p className="font-light text-justify">{t("class3.desc")}</p>
               <Link to="/register" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
-                Register Now{" "}
+                {t("class3.cta")}{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
                 </svg>
@@ -136,11 +126,9 @@ export default function Class() {
 
           <div className="flex flex-col-reverse md:flex-row gap-8 p-8 bg-[#334710B2] text-white">
             <div className="w-full md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start justify-between">
-              <p className="font-light text-justify">
-                Kamu akan belajar berbagai metode penyeduhan kopi seperti V60, French Press, Chemex, dan Vietnam Drip. Di kelas ini, kamu akan tahu cara menyeduh kopi yang benar supaya rasanya lebih nikmat.
-              </p>
+              <p className="font-light text-justify">{t("class4.desc")}</p>
               <Link to="/register" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
-                Register Now{" "}
+                {t("class4.cta")}{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
                 </svg>
@@ -148,13 +136,11 @@ export default function Class() {
             </div>
 
             <div className="w-full md:w-1/2 space-y-4 md:space-y-12 text-center md:text-right">
-              <h1 className="uppercase text-2xl md:text-4xl font-light">
-                Kelas Brewing <br /> (Penyeduhan Kopi)
-              </h1>
-              <p className="font-light italic">Cara Menyeduh Kopi yang Tepat Sesuai Jenis Kopimu</p>
+              <h1 className="uppercase text-2xl md:text-4xl font-light">{t("class4.title")}</h1>
+              <p className="font-light italic">{t("class4.tagline")}</p>
               <p>
-                Durasi: 2 Jam <br />
-                Harga: Rp 300.000,-
+                {t("class4.duration")} <br />
+                {t("class4.price")}
               </p>
             </div>
           </div>
@@ -166,13 +152,13 @@ export default function Class() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 md:py-24">
             <div className="mx-auto md:w-max text-center space-y-4">
               <h1 className="font-bold text-3xl md:text-5xl">
-                Ulasan <span className="font-bilbo text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Terbaru</span>
+                {t("review.title")} <span className="font-bilbo text-4xl md:text-5xl lg:text-6xl xl:text-7xl">{t("review.title2")}</span>
               </h1>
-              <p>Berikut beberapa testimoni terbaru kami.</p>
+              <p>{t("review.subtitle")}</p>
               <div className="flex flex-col md:flex-row gap-4">
-                <Link className="inline-flex items-center justify-center bg-transparent border border-[#334710] py-3 px-4 lg:w-[200px] text-xs sm:text-base rounded-lg">Baca Selengkapnya</Link>
+                <Link className="inline-flex items-center justify-center bg-transparent border border-[#334710] py-3 px-4 lg:w-[200px] text-xs sm:text-base rounded-lg">{t("review.readMore")}</Link>
                 <Link to="/review" className="inline-flex items-center justify-center bg-[#334710] py-3 px-4 lg:w-[200px] text-white text-xs sm:text-base rounded-lg">
-                  Tulis Ulasan
+                  {t("review.writeReview")}
                 </Link>
               </div>
             </div>

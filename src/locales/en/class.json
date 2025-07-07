@@ -1,0 +1,46 @@
+{
+  "title": "CHOICE OF",
+  "title2": "class",
+  "title3": "PROGRAM",
+  "desc": "Learn about each class, schedule, and fee to start your coffee journey with us.",
+  "intro": "Enjoy an authentic and in-depth coffee learning experience in the heart of Lampung Barat's robusta plantations. We offer a variety of class packages designed for coffee lovers of all levels, from beginners to professionals. Discover the secrets behind a quality cup of robusta coffee, learn proper brewing techniques, and master the art of roasting and cupping. Join us and enhance your coffee knowledge and skills in a friendly and professional environment—straight from the source!",
+  "class1": {
+    "title": "Productive Farm Cultivation Class",
+    "tagline": "Learn How to Manage a Coffee Farm Efficiently and Effectively",
+    "duration": "Duration: 2 Hours",
+    "price": "Price: Rp 150,000",
+    "desc": "In this class, you’ll learn how to maintain a coffee farm using effective techniques—from seed selection, plantation care, to pest control. With complete material, you’ll be able to improve the quality and productivity of your coffee farm.",
+    "cta": "Register Now"
+  },
+  "class2": {
+    "title": "Green Grading & Post-Harvest Class",
+    "tagline": "Post-Harvest Process That Enhances Coffee Quality",
+    "duration": "Duration: 4 Hours",
+    "price": "Price: Rp 300,000",
+    "desc": "This class covers post-harvest techniques such as grading and processing to produce high-quality coffee. You'll also learn how to create value-added coffee derivative products.",
+    "cta": "Register Now"
+  },
+  "class3": {
+    "title": "Roasting Class",
+    "tagline": "Learn How to Roast Coffee with the Right Technique",
+    "duration": "Duration: 2 Hours",
+    "price": "Price: Rp 300,000",
+    "desc": "Perfect for those who want to learn roasting techniques to achieve ideal flavor. You'll master various roasting profiles to suit different market preferences.",
+    "cta": "Register Now"
+  },
+  "class4": {
+    "title": "Brewing Class (Coffee Brewing)",
+    "tagline": "Brew Coffee the Right Way for Your Coffee Type",
+    "duration": "Duration: 2 Hours",
+    "price": "Price: Rp 300,000",
+    "desc": "You’ll explore various brewing methods such as V60, French Press, Chemex, and Vietnam Drip. Learn how to brew coffee properly for a richer taste experience.",
+    "cta": "Register Now"
+  },
+  "review": {
+    "title": "Latest",
+    "title2": "Reviews",
+    "subtitle": "Here are some of our latest testimonials.",
+    "readMore": "Read More",
+    "writeReview": "Write a Review"
+  }
+}

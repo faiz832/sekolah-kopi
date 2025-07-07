@@ -1,0 +1,46 @@
+{
+  "title": "PILIHAN",
+  "title2": "Program",
+  "title3": "KELAS",
+  "desc": "Pelajari detail setiap kelas, jadwal, dan biaya untuk memulai perjalanan kopi Anda bersama kami.",
+  "intro": "Nikmati pengalaman belajar kopi yang autentik dan mendalam di jantung perkebunan robusta Lampung Barat. Kami menawarkan berbagai paket kelas yang dirancang untuk pecinta kopi dari berbagai level, mulai dari pemula hingga profesional. Temukan rahasia di balik secangkir kopi robusta berkualitas, pelajari teknik menyeduh yang tepat, hingga menguasai seni roasting dan cupping. Bergabunglah bersama kami dan tingkatkan pengetahuan serta keterampilan kopi Anda di lingkungan yang ramah dan profesional, langsung dari sumbernya!",
+  "class1": {
+    "title": "Kelas Budidaya Kebun Produktif",
+    "tagline": "Pelajari Cara Merawat Kebun Kopi yang Efisien dan Menghasilkan",
+    "duration": "Durasi: 2 Jam",
+    "price": "Harga: Rp 150.000,-",
+    "desc": "Di kelas ini, kamu akan belajar cara merawat kebun kopi dengan teknik yang baik dan efisien, mulai dari perawatan kebun, perbenihan, hingga cara mengatasi hama tanaman kopi. Dengan materi yang lengkap, kamu bisa meningkatkan hasil kebun kopi yang lebih produktif dan berkualitas.",
+    "cta": "Registrasi Sekarang"
+  },
+  "class2": {
+    "title": "Kelas Green Grading & Pascapanen",
+    "tagline": "Proses Setelah Panen yang Membuat Kopimu Lebih Berkualitas",
+    "duration": "Durasi: 4 Jam",
+    "price": "Harga: Rp 300.000,-",
+    "desc": "Di kelas ini, kamu akan mempelajari cara-cara setelah panen kopi, seperti grading (penyortiran kopi) dan pengolahan kopi untuk menghasilkan kopi yang berkualitas. Kamu juga akan belajar cara mengolah produk kopi turunan supaya lebih bernilai.",
+    "cta": "Daftar Sekarang"
+  },
+  "class3": {
+    "title": "Kelas Roasting",
+    "tagline": "Pelajari Cara Memanggang Kopi dengan Teknik yang Tepat",
+    "duration": "Durasi: 2 Jam",
+    "price": "Harga: Rp 300.000,-",
+    "desc": "Kelas ini cocok buat kamu yang ingin belajar cara memanggang kopi untuk mendapatkan rasa yang pas dan sesuai selera pasar. Kamu akan menguasai teknik-teknik pemanggangan yang bisa menghasilkan kopi dengan berbagai cita rasa.",
+    "cta": "Daftar Sekarang"
+  },
+  "class4": {
+    "title": "Kelas Brewing (Penyeduhan Kopi)",
+    "tagline": "Cara Menyeduh Kopi yang Tepat Sesuai Jenis Kopimu",
+    "duration": "Durasi: 2 Jam",
+    "price": "Harga: Rp 300.000,-",
+    "desc": "Kamu akan belajar berbagai metode penyeduhan kopi seperti V60, French Press, Chemex, dan Vietnam Drip. Di kelas ini, kamu akan tahu cara menyeduh kopi yang benar supaya rasanya lebih nikmat.",
+    "cta": "Daftar Sekarang"
+  },
+  "review": {
+    "title": "Ulasan",
+    "title2": "Terbaru",
+    "subtitle": "Berikut beberapa testimoni terbaru kami.",
+    "readMore": "Baca Selengkapnya",
+    "writeReview": "Tulis Ulasan"
+  }
+}
