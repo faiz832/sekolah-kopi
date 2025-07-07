@@ -1,0 +1,23 @@
+{
+  "title": "Hubungi kami",
+  "description": "Isi formulir di bawah ini dan kami akan segera menghubungi Anda.",
+  "yourName": "Nama Kamu",
+  "enterYourName": "Masukkan Nama Kamu",
+  "yourEmail": "Email Kamu",
+  "enterYourEmail": "Masukkan Email Kamu",
+  "reason": "Alasan Mengontak kami",
+  "pleaseSelectReason": "Mohon Pilih Alasan",
+  "message": "Pesan",
+  "enterMessage": "Tuliskan Pesan Kamu",
+  "cancel": "Batal",
+  "submit": "Kirim",
+  "contactInfoTitle": "Informasi Kontak",
+  "contactInfoDesc": "Hubungi kami melalui salah satu metode berikut ini.",
+  "phone": "Ponsel",
+  "email": "Email",
+  "location": "Lokasi",
+  "website": "Website",
+  "support": "Dukungan",
+  "feedback": "Masukkan",
+  "generalQuestion": "Pertanyaan Umum"
+}

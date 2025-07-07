@@ -1,0 +1,23 @@
+{
+  "title": "Contact Us",
+  "description": "Fill out the form below and we will get back to you shortly.",
+  "yourName": "Your Name",
+  "enterYourName": "Enter Your Name",
+  "yourEmail": "Your Email",
+  "enterYourEmail": "Enter Your Email",
+  "reason": "Reason for Contacting Us",
+  "pleaseSelectReason": "Please select a reason",
+  "message": "Message",
+  "enterMessage": "Write your message here",
+  "cancel": "Cancel",
+  "submit": "Submit",
+  "contactInfoTitle": "Contact Information",
+  "contactInfoDesc": "Reach out to us through one of the methods below.",
+  "phone": "Phone",
+  "email": "Email",
+  "location": "Location",
+  "website": "Website",
+  "support": "Support",
+  "feedback": "Feedback",
+  "generalQuestion": "General Question"
+}
