@@ -21,6 +21,8 @@ import testimonialsEN from "./locales/en/testimonials.json";
 import testimonialsID from "./locales/id/testimonials.json";
 import reviewEN from "./locales/en/review.json";
 import reviewID from "./locales/id/review.json";
+import faqEN from "./locales/en/faq.json";
+import faqID from "./locales/id/faq.json";
 
 const resources = {
   en: {
@@ -33,6 +35,7 @@ const resources = {
     class: classEN,
     testimonials: testimonialsEN,
     review: reviewEN,
+    faq: faqEN,
   },
   id: {
     navbar: navbarID,
@@ -44,6 +47,7 @@ const resources = {
     class: classID,
     testimonials: testimonialsID,
     review: reviewID,
+    faq: faqID,
   },
 };
 
@@ -53,7 +57,7 @@ i18n.use(initReactI18next).init({
   fallbackLng: "en",
   debug: false,
   defaultNS: "home", // Default namespace
-  ns: ["navbar", "footer", "home", "about", "information", "gallery", "class", "testimonials", "review"], // Daftar semua namespace
+  ns: ["navbar", "footer", "home", "about", "information", "gallery", "class", "testimonials", "review", "faq"], // Daftar semua namespace
   interpolation: {
     escapeValue: false,
   },

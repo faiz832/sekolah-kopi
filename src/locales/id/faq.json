@@ -1,0 +1,54 @@
+{
+  "faqTitle": "FAQ’s",
+  "faqNote": "FAQ ini akan membantu menjawab pertanyaan umum dari calon peserta, memudahkan mereka dalam memahami layanan dan fasilitas yang ditawarkan oleh Sekolah Kopi Lampung Barat.",
+  "questions": [
+    {
+      "q": "Apa itu Sekolah Kopi Lampung Barat?",
+      "a": "Sekolah Kopi Lampung Barat adalah pusat pelatihan dan edukasi kopi yang berfokus pada kopi robusta. Kami menawarkan berbagai kelas untuk semua level, dari pemula hingga profesional, yang ingin mendalami proses pembuatan kopi, mulai dari biji hingga cangkir."
+    },
+    {
+      "q": "Kelas apa saja yang ditawarkan di Sekolah Kopi Lampung Barat?",
+      "a": "Kami memiliki beberapa kelas yang dirancang untuk berbagai level:\n- Basic Robusta Coffee Knowledge: Untuk pemula yang ingin memahami kopi robusta.\n- Intermediate Robusta Brewing Techniques: Kelas menengah untuk yang ingin mengasah keterampilan seduh.\n- Professional Robusta Coffee Mastery: Program intensif untuk calon barista dan profesional industri kopi."
+    },
+    {
+      "q": "Apakah saya membutuhkan pengalaman sebelumnya untuk mengikuti kelas?",
+      "a": "Tidak. Kelas kami terbuka untuk semua orang, termasuk mereka yang tidak memiliki pengalaman sebelumnya di bidang kopi. Kami memiliki kelas khusus pemula yang membantu Anda memulai dari dasar."
+    },
+    {
+      "q": "Di mana lokasi Sekolah Kopi Lampung Barat?",
+      "a": "Sekolah Kopi kami berlokasi di tengah perkebunan kopi Lampung Barat, sebuah daerah yang terkenal sebagai salah satu penghasil kopi robusta terbaik di Indonesia."
+    },
+    {
+      "q": "Berapa lama durasi setiap kelas?",
+      "a": "Durasi kelas bervariasi tergantung pada paket yang dipilih:\n- Kelas Basic: 2 jam\n- Kelas Intermediate: 4 jam\n- Kelas Professional: 2 hari (intensif)"
+    },
+    {
+      "q": "Apakah saya akan mendapatkan sertifikat setelah menyelesaikan kelas?",
+      "a": "Ya, setiap peserta yang menyelesaikan kelas akan mendapatkan sertifikat partisipasi atau keahlian sesuai dengan paket kelas yang diambil."
+    },
+    {
+      "q": "Bagaimana cara mendaftar untuk mengikuti kelas?",
+      "a": "Anda dapat mendaftar langsung melalui website kami di halaman 'Pendaftaran', atau menghubungi kami melalui email dan nomor telepon yang tersedia. Setelah mengisi formulir, tim kami akan mengonfirmasi pendaftaran Anda."
+    },
+    {
+      "q": "Apa saja fasilitas yang disediakan selama kelas berlangsung?",
+      "a": "Kami menyediakan fasilitas lengkap, termasuk:\n- Bahan belajar dan alat seduh kopi\n- Praktik langsung dengan peralatan profesional\n- Buku panduan dan suvenir berupa biji kopi robusta lokal"
+    },
+    {
+      "q": "Apakah Sekolah Kopi Lampung Barat menyediakan akomodasi?",
+      "a": "Kami tidak menyediakan akomodasi, namun kami dapat merekomendasikan beberapa penginapan di sekitar lokasi sekolah bagi peserta yang berasal dari luar kota."
+    },
+    {
+      "q": "Apakah ada batasan usia untuk mengikuti kelas?",
+      "a": "Kelas kami terbuka untuk semua kalangan, namun kami merekomendasikan peserta berusia minimal 17 tahun untuk mengikuti kelas, terutama bagi yang ingin mengikuti program intensif."
+    },
+    {
+      "q": "Apakah saya bisa mengikuti kelas secara privat atau untuk grup?",
+      "a": "Ya, kami menawarkan kelas privat atau grup dengan jadwal dan materi yang dapat disesuaikan. Silakan hubungi kami untuk informasi lebih lanjut mengenai harga dan ketersediaan jadwal."
+    },
+    {
+      "q": "Apakah saya bisa membeli biji kopi robusta Lampung Barat di tempat?",
+      "a": "Tentu, Anda bisa membeli biji kopi robusta lokal yang tersedia di toko kami setelah kelas selesai."
+    }
+  ]
+}
