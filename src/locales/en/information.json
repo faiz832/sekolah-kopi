@@ -1,0 +1,35 @@
+{
+  "title1": "All About",
+  "title2": "The School",
+  "title3": "Coffee",
+  "title4": "Info & Articles",
+  "subtitle": "Everything you need to know and follow about us is here.",
+  "charTitle": "Coffee Characteristics in West Lampung",
+  "charDesc": "West Lampung is not only known as the largest coffee-producing area in Lampung Province, but also as a region that produces high-quality robusta coffee with distinctive flavor characteristics. Located in the Bukit Barisan mountain range, this region holds agroclimatic potential that strongly supports coffee cultivation, making West Lampung one of the top coffee production centers in Indonesia.",
+  "climateTitle": "Ideal Climate and Topography",
+  "climateDesc": "Robusta coffee in West Lampung is cultivated at elevations of 400–1,200 meters above sea level in an ideal environment with high rainfall, stable temperatures (20–26°C), and fertile volcanic soil. These conditions produce dense and disease-resistant beans. The farming, dominated by local smallholders with generational knowledge, adds uniqueness to the coffee produced.",
+  "flavorTitle": "Distinctive Flavor and Aroma Profile",
+  "flavorDesc": "Robusta coffee from West Lampung has a strong taste profile, dominant bitterness, low acidity, and a thick body. Its aroma features smoky and earthy notes with hints of dark chocolate. Because of its strong character, this coffee is popular for making tubruk coffee, instant coffee, and espresso blends.",
+  "caffeineDesc": "One of the main advantages of robusta coffee from Lampung is its high caffeine content, ranging from 2–2.7%. This makes it a favorite for morning consumption or as an energy booster. Additionally, robusta plants are more resistant to extreme weather and diseases, making West Lampung’s coffee production relatively stable year to year.",
+  "processingTitle": "Caffeine Content and Durability",
+  "processingDesc": "Coffee farmers in West Lampung generally use the semi-washed method, commonly found in Indonesia. This process results in a cleaner taste with a balance between flavor strength and aroma clarity. Some farmers have begun adopting full-washed and natural methods, especially for export and specialty markets. These quality improvements are supported by training and assistance from cooperatives, local governments, and NGOs to make Lampung robusta coffee more competitive globally.",
+  "readMore": "Methods of Cultivation and Processing",
+  "article": "Other",
+  "other": "ARTICLES",
+  "komoditi": {
+    "desc": "Indonesia is a country rich in natural resources, one of which is high-quality coffee beans.",
+    "title": "Liwa, West Lampung Best Robusta Coffee Commodity",
+    "cta": "Read More"
+  },
+
+  "komoditi2": {
+    "desc": "Coffee is one of Lampung Province's leading plantation commodities. Most of the coffee beans from Lampung have been exported to various countries.",
+    "title": "Getting to know West Lampung's coffee commodities and culture",
+    "cta": "Read More"
+  },
+  "komoditi3": {
+    "desc": "The price of robusta coffee in Lampung Barat, Lampung Province, on July 1, 2024, reached an average of Rp70,000 per kilogram (Kg).",
+    "title": "West Lampung Robusta Coffee Price on September 1, 2024",
+    "cta": "Read More"
+  }
+}

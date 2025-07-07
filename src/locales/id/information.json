@@ -1,0 +1,34 @@
+{
+  "title1": "Semua Tentang",
+  "title2": "Sekolah",
+  "title3": "Kopi",
+  "title4": "Info & Artikel",
+  "subtitle": "Semua yang perlu Anda ketahui dan ikuti tentang kami ada di sini.",
+  "charTitle": "Karakteristik Kopi di Lampung Barat",
+  "charDesc": "Lampung Barat bukan hanya dikenal sebagai daerah penghasil kopi terbesar di Provinsi Lampung, tetapi juga sebagai wilayah yang menghasilkan kopi robusta berkualitas tinggi dengan karakteristik rasa yang khas. Terletak di kawasan pegunungan Bukit Barisan, daerah ini menyimpan potensi agroklimat yang sangat mendukung budidaya kopi, menjadikan Lampung Barat sebagai salah satu pusat produksi kopi unggulan di Indonesia.",
+  "climateTitle": "Iklim dan Topografi yang Ideal",
+  "climateDesc": "Kopi robusta Lampung Barat dibudidayakan pada ketinggian 400–1.200 mdpl di lingkungan ideal dengan curah hujan tinggi, suhu stabil (20–26°C), dan tanah vulkanik yang subur. Kondisi ini menghasilkan biji kopi yang padat dan tahan penyakit. Budidaya yang didominasi petani rakyat dengan pengetahuan turun-temurun menambah keunikan pada kopi yang dihasilkan.",
+  "flavorTitle": "Profil Rasa dan Aroma yang Khas",
+  "flavorDesc": "Kopi robusta Lampung Barat memiliki karakter rasa kuat, pahit dominan, dan keasaman rendah dengan body yang tebal. Aromanya khas smoky (asap) dan earthy (tanah) dengan sentuhan rasa cokelat hitam. Karena karakternya yang kuat, kopi ini populer digunakan sebagai bahan baku kopi tubruk, kopi instan, dan campuran espreso.",
+  "caffeineDesc": "Salah satu keunggulan utama kopi robusta Lampung adalah tingginya kandungan kafein, berkisar antara 2–2,7%. Kafein yang tinggi ini membuat kopi robusta sangat diminati untuk konsumsi pagi hari atau sebagai penambah energi. Selain itu, tanaman robusta dikenal lebih tahan terhadap kondisi cuaca ekstrem dan penyakit, sehingga produksi kopi Lampung Barat cenderung stabil dari tahun ke tahun.",
+  "processingTitle": "Kandungan kafein dan ketahanan",
+  "processingDesc": "Petani kopi di Lampung Barat umumnya menggunakan metode semi-washed (giling basah) yang banyak ditemukan di Indonesia. Metode ini menghasilkan cita rasa kopi yang lebih bersih, dengan keseimbangan antara kekuatan rasa dan kejernihan aroma. Beberapa petani juga mulai mengadopsi metode full-washed dan natural, terutama untuk kebutuhan ekspor dan pasar specialty. Upaya peningkatan mutu ini didukung oleh berbagai pelatihan dan pendampingan dari koperasi, pemerintah daerah, dan lembaga swadaya masyarakat, untuk mendorong kopi robusta Lampung menjadi lebih kompetitif di pasar global.",
+  "readMore": "Metode Pascapanen dan Pengolahan",
+  "article": "Artikel",
+  "other": "LAINNYA",
+  "komoditi": {
+    "desc": "Indonesia merupakan negara yang kaya akan hasil buminya, salah satunya adalah biji kopi terbaik.",
+    "title": "Liwa, Lampung Barat Komoditi Kopi Robusta Terbaik",
+    "cta": "Baca Selengkapnya"
+  },
+  "komoditi2": {
+    "desc": "Kopi merupakan salah satu komoditas perkebunan unggulan Provinsi Lampung. Sebagian besar biji kopi asal Lampung  telah diekspor ke berbagai negara.",
+    "title": "Mengenal komoditas kopi dan kebudayaan Lampung Barat",
+    "cta": "Baca Selengkapnya"
+  },
+  "komoditi3": {
+    "desc": "Harga biji kopi robusta di Kabupaten Lampung Barat, Provinsi Lampung, di tingkat pekebun pada awal Juli 2024 sempat menyentuh angka Rp70 ribu per kilogram (Kg).",
+    "title": "Harga Kopi Robusta di Lampung Barat 1 September 2024",
+    "cta": "Baca Selengkapnya"
+  }
+}
