@@ -13,6 +13,8 @@ import aboutEN from "./locales/en/about.json";
 import aboutID from "./locales/id/about.json";
 import informationEN from "./locales/en/information.json";
 import informationID from "./locales/id/information.json";
+import galleryEN from "./locales/en/gallery.json";
+import galleryID from "./locales/id/gallery.json";
 // import classEN from "./locales/en/class.json";
 // import classID from "./locales/id/class.json";
 // Tambahkan file lain sesuai halaman
@@ -24,6 +26,7 @@ const resources = {
     home: homeEN,
     about: aboutEN,
     information: informationEN,
+    gallery: galleryEN,
     // class: classEN,
   },
   id: {
@@ -32,6 +35,7 @@ const resources = {
     home: homeID,
     about: aboutID,
     information: informationID,
+    gallery: galleryID,
     // class: classID,
   },
 };
@@ -42,7 +46,7 @@ i18n.use(initReactI18next).init({
   fallbackLng: "en",
   debug: false,
   defaultNS: "home", // Default namespace
-  ns: ["navbar", "footer", "home", "about", "information", "class"], // Daftar semua namespace
+  ns: ["navbar", "footer", "home", "about", "information", "gallery", "class"], // Daftar semua namespace
   interpolation: {
     escapeValue: false,
   },
