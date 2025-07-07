@@ -7,8 +7,8 @@ import navbarEN from "./locales/en/navbar.json";
 import navbarID from "./locales/id/navbar.json";
 import footerEN from "./locales/en/footer.json";
 import footerID from "./locales/id/footer.json";
-// import homeEN from "./locales/en/home.json";
-// import homeID from "./locales/id/home.json";
+import homeEN from "./locales/en/home.json";
+import homeID from "./locales/id/home.json";
 // import aboutEN from "./locales/en/about.json";
 // import aboutID from "./locales/id/about.json";
 // import classEN from "./locales/en/class.json";
@@ -19,14 +19,14 @@ const resources = {
   en: {
     navbar: navbarEN,
     footer: footerEN,
-    // home: homeEN,
+    home: homeEN,
     // about: aboutEN,
     // class: classEN,
   },
   id: {
     navbar: navbarID,
     footer: footerID,
-    // home: homeID,
+    home: homeID,
     // about: aboutID,
     // class: classID,
   },

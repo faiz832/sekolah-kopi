@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "title": "BELAJAR DENGAN LEBIH",
+    "highlight": "Banyak Pengalaman",
+    "desc": "Belajar kopi dengan suasana yang berbeda dan mengasikkan serta dapatkan promo menarik dengan cara gabung sekarang juga",
+    "cta": "Gabung Sekarang"
+  },
+  "tentang": {
+    "title": "Tentang",
+    "highlight": "Kami",
+    "desc": "Sekolah Kopi merupakan sarana agro eduwisata atau tempat wisata yang berbasis pendidikan komoditi kopi, di Sekolah Kopi pengunjung dapat mengikuti berbagai aktivitas edukasi mengenai kopi.",
+    "cta": "Pelajari Lebih Lanjut"
+  },
+  "statistik": {
+    "title": "Jumlah lahan perkebunan kopi di lampungbarat",
+    "angka": "54.101",
+    "unit": "Hektare"
+  },
+  "robusta": {
+    "title": "Kopi",
+    "highlight": "Robusta",
+    "desc": "Kopi Robusta merupakan salah satu jenis kopi yang banyak digemari oleh semua kalangan. Terkenal dengan cita rasa dan aroma wangi kopi yang khas, serta kandungan kafein yang tinggi, menjadikannya pilihan populer untuk dicampur dengan varietas kopi lainnya.",
+    "cta": "Pelajari Lebih Lanjut"
+  },
+  "komoditi": {
+    "desc": "Indonesia merupakan negara yang kaya akan hasil buminya, salah satunya adalah biji kopi terbaik.",
+    "title": "Liwa, Lampung Barat Komoditi",
+    "highlight": "Kopi Robusta",
+    "best": "Terbaik",
+    "cta": "Baca Selengkapnya"
+  },
+  "kelas": {
+    "title": "Kelas",
+    "highlight": "Green Grading",
+    "subtitle": "& Pascapanen",
+    "detail": "Durasi: 2 Jam",
+    "detail2": "Harga: Rp 150.000,-",
+    "desc": "Kami mengajarkan berbagai teknik pasca panen kopi, mulai dari proses grading hingga cara pengolahan kopi yang akan menghasilkan produk berkualitas.",
+    "cta": "Daftar Sekarang"
+  }
+}

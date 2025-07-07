@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "title": "LEARN WITH MORE",
+    "highlight": "Experience",
+    "desc": "Learn about coffee in a unique and enjoyable atmosphere, and get exciting promos by joining now.",
+    "cta": "Join Now"
+  },
+  "tentang": {
+    "title": "About",
+    "highlight": "Us",
+    "desc": "Sekolah Kopi is an agro edu-tourism facility, a tourism place based on coffee commodity education. Visitors can participate in various educational coffee activities.",
+    "cta": "Learn More"
+  },
+  "statistik": {
+    "title": "Total coffee plantation area in West Lampung",
+    "angka": "54.101",
+    "unit": "Hectares"
+  },
+  "robusta": {
+    "title": "Coffee",
+    "highlight": "Robusta",
+    "desc": "Robusta coffee is one of the most popular types of coffee loved by many. Known for its distinctive taste and aroma, as well as high caffeine content, it is often mixed with other coffee varieties.",
+    "cta": "Learn More"
+  },
+  "komoditi": {
+    "desc": "Indonesia is a country rich in natural resources, one of which is high-quality coffee beans.",
+    "title": "Liwa, West Lampung the Best",
+    "highlight": "Robusta Coffee",
+    "best": "commodity",
+    "cta": "Read More"
+  },
+  "kelas": {
+    "title": "Green Grading",
+    "highlight": "Class",
+    "subtitle": "& Post-Harvest",
+    "detail": "Duration: 2 Hours",
+    "detail2": "Price: Rp 150,000,-",
+    "desc": "We teach various post-harvest coffee techniques, from grading to processing methods that produce high-quality products.",
+    "cta": "Register Now"
+  }
+}
