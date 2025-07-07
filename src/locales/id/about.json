@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "title1": "Siapa",
+    "title2": "Kami",
+    "title3": "Sebenarnya",
+    "desc": "Mengenal lebih dalam visi, misi, nilai-nilai inti, dan komitmen kami terhadap kualitas dalam setiap aspek pendidikan yang kami tawarkan."
+  },
+  "section1": {
+    "title": "SEKOLAH KOPI",
+    "title2": "Lampung Barat",
+    "desc1": "Sekolah Kopi merupakan Sarana Agro Eduwisata yaitu tempat wisata yang berbasis Pendidikan komoditi kopi, di sekolah kopi bisa belajar Budidaya Kopi, Pasca Panen dan Kelas Barista.",
+    "desc2": "Sekolah kopi ini terletak di Pekon Suka Jaya, Kabupaten Lampung Barat, diresmikan oleh Bupati Lampung Barat Parosil Mabsus, Selasa Desember 2020. Sebelum adanya sekolah kopi ini, tempat ini hanyalah kebun kopi biasa. Lalu Bupati membangun sekolah ini untuk memunculkan inovasi-inovasi baru, terutama bagi petani kopi di Lampung Barat."
+  },
+  "section2": {
+    "desc": "Sekolah kopi ini dilengkapi kelas pelatihan barista hingga fasilitas kedai dan guest house, Lokasinya cukup strategis dengan pemandangan alam yang elok, tempat ini dijadikan tempat pariwisata agar dapat dinikmati banyak orang."
+  },
+  "quote": {
+    "text": "\"Belajar Kopi, Nikmati Pengalaman\""
+  },
+  "visiMisi": {
+    "title1": "VISI",
+    "title2": "dan",
+    "title3": "MISI",
+    "visiTitle": "Visi",
+    "visi": "Menjadi pusat pengembangan kopi unggul yang berperan dalam pemberdayaan masyarakat Lampung Barat melalui pendidikan dan pelatihan yang berbasis pada teknologi dan kearifan lokal.",
+    "misiTitle": "Misi",
+    "misi": [
+      "Meningkatkan kualitas produksi dan pengolahan kopi Robusta Lampung Barat.",
+      "Memberikan pelatihan kepada petani kopi dan masyarakat lokal tentang teknik budidaya yang baik dan benar.",
+      "Mendorong pengembangan pariwisata berbasis kopi untuk mendukung perekonomian lokal.",
+      "Membangun jejaring kerja sama dengan berbagai pihak dalam industri kopi."
+    ]
+  },
+  "location": {
+    "title1": "LOKASI DAN",
+    "title2": "Kontak",
+    "alamat": "Alamat: Jl. Teratai No. 7 Way Mengaku, Liwa, Lampung Barat, 3481",
+    "telepon": "Telepon: (0728) 21120",
+    "faks": "Faks: (0728) 21499",
+    "email": "Email: sekolahkopi@gmail.com",
+    "button1": "Maps",
+    "button2": "WhatsApp"
+  }
+}

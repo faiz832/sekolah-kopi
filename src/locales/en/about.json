@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "title1": "Who",
+    "title2": "We",
+    "title3": "Really Are",
+    "desc": "Discover more about our vision, mission, core values, and our commitment to quality in every aspect of the education we provide."
+  },
+  "section1": {
+    "title": "COFFEE SCHOOL",
+    "title2": "West Lampung",
+    "desc1": "Sekolah Kopi is an Agro Edu-tourism facility based on coffee commodity education, where visitors can learn about coffee cultivation, post-harvest practices, and barista classes.",
+    "desc2": "Located in Pekon Suka Jaya, West Lampung Regency, it was inaugurated by Regent Parosil Mabsus in December 2020. Previously, this place was just a regular coffee plantation. Then the Regent built this school to foster coffee innovation, especially for local farmers."
+  },
+  "section2": {
+    "desc": "This coffee school is equipped with barista training classes, café facilities, and a guest house. Its strategic location with beautiful scenery makes it a tourist destination for everyone to enjoy."
+  },
+  "quote": {
+    "text": "\"Learn Coffee, Enjoy the Experience\""
+  },
+  "visiMisi": {
+    "title1": "VISION",
+    "title2": "and",
+    "title3": "MISSION",
+    "visiTitle": "Vision",
+    "visi": "To become a center for superior coffee development that empowers the West Lampung community through education and training based on technology and local wisdom.",
+    "misiTitle": "Mission",
+    "misi": [
+      "Improve the quality of Robusta coffee production and processing in West Lampung.",
+      "Provide training to coffee farmers and the local community on good cultivation techniques.",
+      "Promote coffee-based tourism to support the local economy through agro-tourism and education.",
+      "Build partnerships with various stakeholders in the coffee industry."
+    ]
+  },
+  "location": {
+    "title1": "LOCATION AND",
+    "title2": "Contact",
+    "alamat": "Address: Jl. Teratai No. 7 Way Mengaku, Liwa, West Lampung, 3481",
+    "telepon": "Phone: (0728) 21120",
+    "faks": "Fax: (0728) 21499",
+    "email": "Email: sekolahkopi@gmail.com",
+    "button1": "Maps",
+    "button2": "WhatsApp"
+  }
+}

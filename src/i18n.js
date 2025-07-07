@@ -9,8 +9,8 @@ import footerEN from "./locales/en/footer.json";
 import footerID from "./locales/id/footer.json";
 import homeEN from "./locales/en/home.json";
 import homeID from "./locales/id/home.json";
-// import aboutEN from "./locales/en/about.json";
-// import aboutID from "./locales/id/about.json";
+import aboutEN from "./locales/en/about.json";
+import aboutID from "./locales/id/about.json";
 // import classEN from "./locales/en/class.json";
 // import classID from "./locales/id/class.json";
 // Tambahkan file lain sesuai halaman
@@ -20,14 +20,14 @@ const resources = {
     navbar: navbarEN,
     footer: footerEN,
     home: homeEN,
-    // about: aboutEN,
+    about: aboutEN,
     // class: classEN,
   },
   id: {
     navbar: navbarID,
     footer: footerID,
     home: homeID,
-    // about: aboutID,
+    about: aboutID,
     // class: classID,
   },
 };
