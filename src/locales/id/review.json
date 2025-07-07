@@ -1,0 +1,18 @@
+{
+  "heroTitle": "Bagikan Eksperiens Anda",
+  "heroSubtitle": "Kami menghargai masukan Anda. Silakan tinggalkan testimoni Anda di bawah ini!",
+  "heroCancel": "Batal",
+  "heroSubmit": "Kirim Ulasan",
+  "formTitle": "Kirimkan Testimoni Anda",
+  "formSubtitle": "Pikiran Anda penting bagi kami.",
+  "nameLabel": "Nama Kamu",
+  "namePlaceholder": "Masukkan Nama Kamu",
+  "nameNote": "Nama Anda akan ditampilkan bersama testimoni Anda.",
+  "reviewLabel": "Ulasan Kamu",
+  "reviewPlaceholder": "Tulis Ulasan Kamu",
+  "reviewNote": "Mohon sampaikan masukan Anda yang jujur.",
+  "ratingLabel": "Peringkat",
+  "ratingNote": "Nilai pengalaman Anda.",
+  "resetButton": "Hapus",
+  "submitButton": "Kirim"
+}

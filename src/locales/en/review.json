@@ -1,0 +1,18 @@
+{
+  "heroTitle": "Share Your Experience",
+  "heroSubtitle": "We value your feedback. Please leave your testimonial below!",
+  "heroCancel": "Cancel",
+  "heroSubmit": "Submit Review",
+  "formTitle": "Submit Your Testimonial",
+  "formSubtitle": "Your thoughts matter to us.",
+  "nameLabel": "Your Name",
+  "namePlaceholder": "Enter Your Name",
+  "nameNote": "Your name will be shown with your testimonial.",
+  "reviewLabel": "Your Review",
+  "reviewPlaceholder": "Write Your Review",
+  "reviewNote": "Please provide your honest feedback.",
+  "ratingLabel": "Rating",
+  "ratingNote": "Rate your experience.",
+  "resetButton": "Reset",
+  "submitButton": "Submit"
+}
