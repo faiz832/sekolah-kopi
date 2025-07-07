@@ -25,6 +25,8 @@ import faqEN from "./locales/en/faq.json";
 import faqID from "./locales/id/faq.json";
 import contactEN from "./locales/en/contact.json";
 import contactID from "./locales/id/contact.json";
+import registerEN from "./locales/en/register.json";
+import registerID from "./locales/id/register.json";
 
 const resources = {
   en: {
@@ -39,6 +41,7 @@ const resources = {
     review: reviewEN,
     faq: faqEN,
     contact: contactEN,
+    register: registerEN,
   },
   id: {
     navbar: navbarID,
@@ -52,6 +55,7 @@ const resources = {
     review: reviewID,
     faq: faqID,
     contact: contactID,
+    register: registerID,
   },
 };
 
@@ -61,7 +65,7 @@ i18n.use(initReactI18next).init({
   fallbackLng: "en",
   debug: false,
   defaultNS: "home", // Default namespace
-  ns: ["navbar", "footer", "home", "about", "information", "gallery", "class", "testimonials", "review", "faq", "contact"], // Daftar semua namespace
+  ns: ["navbar", "footer", "home", "about", "information", "gallery", "class", "testimonials", "review", "faq", "contact", "register"], // Daftar semua namespace
   interpolation: {
     escapeValue: false,
   },

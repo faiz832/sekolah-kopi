@@ -1,0 +1,14 @@
+{
+  "title": "Formulir Pendaftaran",
+  "name": "NAMA",
+  "email": "EMAIL",
+  "address": "ALAMAT",
+  "date": "Tanggal",
+  "instructions": [
+    "Klik tombol “Bayar Sekarang” di bawah.",
+    "Sistem akan otomatis menghasilkan kode QR unik atas nama Anda.",
+    "Scan kode QR dengan aplikasi e-wallet atau mobile banking Anda.",
+    "Setelah pembayaran berhasil, Anda akan langsung diarahkan ke halaman konfirmasi otomatis – tidak perlu unggah bukti transfer!"
+  ],
+  "payNow": "Bayar Sekarang"
+}

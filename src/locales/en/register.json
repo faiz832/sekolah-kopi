@@ -1,0 +1,14 @@
+{
+  "title": "Registration Form",
+  "name": "NAME",
+  "email": "EMAIL",
+  "address": "ADDRESS",
+  "date": "Date",
+  "instructions": [
+    "Click the 'Pay Now' button below.",
+    "The system will automatically generate a unique QR code under your name.",
+    "Scan the QR code using your e-wallet or mobile banking app.",
+    "Once the payment is successful, you'll be redirected to an automatic confirmation page – no need to upload proof of transfer!"
+  ],
+  "payNow": "Pay Now"
+}
