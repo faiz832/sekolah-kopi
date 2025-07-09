@@ -25,22 +25,22 @@ export default function Footer() {
             <h1 className="text-lg font-semibold mb-4">{t("quick_links")}</h1>
             <ul className="space-y-2">
               <li>
-                <Link to="/faq" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/faq" aria-label="faq" className="text-gray-300 hover:text-white transition-colors">
                   {t("links.faq")}
                 </Link>
               </li>
               <li>
-                <Link to="/class" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/class" aria-label="class" className="text-gray-300 hover:text-white transition-colors">
                   {t("links.class")}
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/contact" aria-label="contact" className="text-gray-300 hover:text-white transition-colors">
                   {t("links.contact")}
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/about" aria-label="about" className="text-gray-300 hover:text-white transition-colors">
                   {t("links.about")}
                 </Link>
               </li>
