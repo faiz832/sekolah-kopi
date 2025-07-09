@@ -22,7 +22,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">{t("quick_links")}</h4>
+            <h1 className="text-lg font-semibold mb-4">{t("quick_links")}</h1>
             <ul className="space-y-2">
               <li>
                 <Link to="/faq" className="text-gray-300 hover:text-white transition-colors">
@@ -49,7 +49,7 @@ export default function Footer() {
 
           {/* Social Media */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">{t("social")}</h4>
+            <h1 className="text-lg font-semibold mb-4">{t("social")}</h1>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition-colors" aria-label="Facebook">
                 <Facebook className="w-6 h-6" />
