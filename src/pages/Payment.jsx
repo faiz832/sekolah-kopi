@@ -33,7 +33,7 @@ export default function Payment() {
           <h1 className="text-center text-3xl md:text-4xl font-light mb-8 uppercase tracking-wide whitespace-pre-line">{t("title")}</h1>
           <p className="mb-6 text-center">{t("instruction")}</p>
 
-          <img src={QRImage} alt="QR Code" className="mx-auto w-52 h-52 sm:w-60 sm:h-60 border-4 border-[#253707] rounded-lg mb-6 object-cover" />
+          <img src={QRImage} alt="QR Code" className="mx-auto w-52 h-52 sm:w-60 sm:h-60 border-4 border-[#253707] rounded-lg mb-6 object-cover" loading="lazy" />
 
           <div className="text-center text-xl md:text-3xl font-medium tracking-wide">
             {String(Math.floor(timeLeft / 60)).padStart(2, "0")}:{String(timeLeft % 60).padStart(2, "0")} {t("timer")}

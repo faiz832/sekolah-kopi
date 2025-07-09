@@ -21,7 +21,7 @@ export default function About() {
           </div>
         </div>
 
-        <img src={Pattern1} alt="" className="absolute w-full -bottom-20 lg:-bottom-30 xl:top-50 right-0 -z-1" />
+        <img src={Pattern1} alt="" className="absolute w-full -bottom-20 lg:-bottom-30 xl:top-50 right-0 -z-1" loading="lazy" />
       </section>
 
       <section className="relative z-1 bg-[url('/src/assets/images/bg-hero2.png')] bg-cover bg-center bg-no-repeat">
@@ -40,7 +40,7 @@ export default function About() {
           </div>
         </div>
 
-        <img src={Img1} alt="" className="hidden md:block absolute -bottom-100 left-0 -z-1 w-80 h-auto md:w-[600px]" />
+        <img src={Img1} alt="" className="hidden md:block absolute -bottom-100 left-0 -z-1 w-80 h-auto md:w-[600px]" loading="lazy" />
       </section>
 
       <section className="">
@@ -50,7 +50,7 @@ export default function About() {
           </div>
 
           <div className="bg-[url('/src/assets/images/bg-about2.png')] bg-cover bg-center bg-no-repeat">
-            <img src={HeroImg} alt="" className="p-0 lg:ps-20 xl:ps-40" />
+            <img src={HeroImg} alt="" className="p-0 lg:ps-20 xl:ps-40" loading="lazy" />
           </div>
         </div>
       </section>
@@ -95,12 +95,12 @@ export default function About() {
       </section>
 
       <section className="relative bg-[url('/src/assets/images/bg-hero2.png')] bg-cover bg-center bg-no-repeat z-1">
-        <img src={Pattern4} alt="" className="absolute w-full top-0 right-0 -z-1" />
+        <img src={Pattern4} alt="" className="absolute w-full top-0 right-0 -z-1" loading="lazy" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen py-12">
           <div className="flex flex-col-reverse md:flex-row justify-between items-center min-h-screen gap-8">
             <div className="">
-              <img src={Peta} alt="" />
+              <img src={Peta} alt="" loading="lazy" />
             </div>
 
             <div className="">

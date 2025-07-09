@@ -68,7 +68,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/">
-              <img src={Logo} alt="Logo" className="h-12" />
+              <img src={Logo} alt="Logo" className="h-12" loading="lazy" />
             </Link>
           </div>
 

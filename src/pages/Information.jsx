@@ -32,11 +32,11 @@ export default function Information() {
       <section className="relative bg-[url('/src/assets/images/bg-information.png')] h-[calc(100vh-200px)] bg-cover bg-center bg-no-repeat z-1">
         <div className="flex justify-center items-center h-full w-full px-4"></div>
 
-        <img src={Pattern1} alt="" className="absolute w-full -bottom-50 md:-bottom-110 lg:-bottom-150 xl:-top-100 right-0 -z-1" />
+        <img src={Pattern1} alt="" className="absolute w-full -bottom-50 md:-bottom-110 lg:-bottom-150 xl:-top-100 right-0 -z-1" loading="lazy" />
       </section>
 
       <section className="relative z-1 bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat">
-        <img src={Img1} alt="" className="hidden lg:block absolute top-20 left-0 -z-1" />
+        <img src={Img1} alt="" className="hidden lg:block absolute top-20 left-0 -z-1" loading="lazy" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:pt-32 md:pb-40">
           <h1 className="text-center lg:text-right text-3xl lg:text-6xl uppercase font-light">{t("charTitle")}</h1>
@@ -47,10 +47,10 @@ export default function Information() {
           <p className="text-sm lg:text-lg lg:w-sm ml-auto mt-4 lg:mt-12 text-justify">{t("flavorDesc")}</p>
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12 mt-12">
             <p className="text-sm lg:text-lg text-justify lg:mb-12">{t("caffeineDesc")} </p>
-            <img src={Img2} alt="" className="w-full h-50 lg:w-1/2 lg:h-auto object-cover" />
+            <img src={Img2} alt="" className="w-full h-50 lg:w-1/2 lg:h-auto object-cover" loading="lazy" />
           </div>
           <div className="flex flex-col lg:flex-row items-center gap-12 mt-12 lg:-mt-36">
-            <img src={Img3} alt="" className="w-full h-50 lg:h-[580px] object-cover" />
+            <img src={Img3} alt="" className="w-full h-50 lg:h-[580px] object-cover" loading="lazy" />
             <div className="">
               <h2 className="uppercase font-light text-3xl lg:text-5xl lg:w-[290px] text-center lg:text-right mb-12">{t("processingTitle")}</h2>
               <p className="text-sm lg:text-lg text-justify">{t("processingDesc")}</p>
@@ -61,8 +61,8 @@ export default function Information() {
       </section>
 
       <section className="relative z-1 bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat">
-        <img src={Pattern2} alt="" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full -z-1" />
-        <img src={Img7} alt="" className="hidden lg:block absolute lg:-bottom-20 xl:-bottom-70 right-0 w-80 xl:w-[600px]" />
+        <img src={Pattern2} alt="" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full -z-1" loading="lazy" />
+        <img src={Img7} alt="" className="hidden lg:block absolute lg:-bottom-20 xl:-bottom-70 right-0 w-80 xl:w-[600px]" loading="lazy" />
 
         <div className="flex justify-center items-center h-[300px]">
           <div className="text-center">
@@ -76,7 +76,7 @@ export default function Information() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24 md:py-24 md:my-24 space-y-12 md:space-y-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="">
-              <img src={Img4} alt="" className="w-full h-40 object-cover" />
+              <img src={Img4} alt="" className="w-full h-40 object-cover" loading="lazy" />
               <p className="mt-8 w-full text-justify">{t("komoditi.desc")}</p>
             </div>
 
@@ -104,14 +104,14 @@ export default function Information() {
 
             <div className="flex flex-col-reverse md:flex-col">
               <p className="mt-8 md:mt-0 md:mb-20 w-full lg:w-3/4 ml-auto text-justify">{t("komoditi2.desc")}</p>
-              <img src={Img5} alt="" className="w-full h-40 object-cover" />
+              <img src={Img5} alt="" className="w-full h-40 object-cover" loading="lazy" />
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex flex-col-reverse md:flex-col">
               <p className="mt-8 md:mt-0 md:mb-8 w-full text-justify">{t("komoditi3.desc")}</p>
-              <img src={Img6} alt="" className="w-full h-40 md:h-auto object-cover" />
+              <img src={Img6} alt="" className="w-full h-40 md:h-auto object-cover" loading="lazy" />
             </div>
 
             <div className="text-center md:text-right flex flex-col items-center md:items-end justify-between">

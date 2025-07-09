@@ -28,7 +28,7 @@ export default function Slider() {
         {images.map((img, index) => (
           <SwiperSlide key={index}>
             <div className="max-w-[500px] aspect-square mx-auto">
-              <img src={img} alt={`slider-${index + 1}`} className="w-full h-full object-cover" />
+              <img src={img} alt={`slider-${index + 1}`} className="w-full h-full object-cover" loading="lazy" />
             </div>
           </SwiperSlide>
         ))}

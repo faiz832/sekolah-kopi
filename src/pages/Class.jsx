@@ -46,15 +46,15 @@ export default function Class() {
                 </h1>
                 <p className="text-center md:text-left sm:text-xl lg:text-2xl font-light mt-8">{t("desc")}</p>
 
-                <img src={ClassImg2} alt="" className="hidden lg:block absolute -bottom-21 right-0" />
+                <img src={ClassImg2} alt="" className="hidden lg:block absolute -bottom-21 right-0" loading="lazy" />
               </div>
               <div className="">
-                <img src={ClassImg} alt="" className="lg:h-[550px] w-auto" />
+                <img src={ClassImg} alt="" className="lg:h-[550px] w-auto" loading="lazy" />
               </div>
             </div>
           </div>
 
-          <img src={Pattern1} alt="" className="absolute w-full bottom-0 lg:-bottom-12 xl:top-12 right-0 z-1" />
+          <img src={Pattern1} alt="" className="absolute w-full bottom-0 lg:-bottom-12 xl:top-12 right-0 z-1" loading="lazy" />
         </section>
 
         <section className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24 z-1">
@@ -147,7 +147,7 @@ export default function Class() {
         </section>
 
         <section className="relative z-1">
-          <img src={Pattern2} alt="" className="absolute w-full -top-50 lg:-top-150 left-0 -z-1" />
+          <img src={Pattern2} alt="" className="absolute w-full -top-50 lg:-top-150 left-0 -z-1" loading="lazy" />
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 md:py-24">
             <div className="mx-auto md:w-max text-center space-y-4">
@@ -169,7 +169,7 @@ export default function Class() {
                   {/* Header */}
                   <div className="flex items-center justify-between mb-3">
                     <div className="flex items-center gap-2">
-                      <img src={ProfilePlaceholder} alt={item.name} className="w-8 h-8 rounded-full bg-gray-200" />
+                      <img src={ProfilePlaceholder} alt={item.name} className="w-8 h-8 rounded-full bg-gray-200" loading="lazy" />
                       <span className="font-semibold">{item.name}</span>
                     </div>
                     <div className="flex gap-0.5 text-yellow-400">

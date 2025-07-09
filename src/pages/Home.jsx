@@ -33,11 +33,11 @@ export default function Home() {
               </Link>
             </div>
 
-            <img src={HeroImg} alt="" className="hidden lg:block" />
+            <img src={HeroImg} alt="" className="hidden lg:block" loading="lazy" />
           </div>
         </div>
 
-        <img src={Pattern1} alt="" className="absolute w-full -bottom-50 md:-bottom-90 lg:top-0 right-0 -z-1" />
+        <img src={Pattern1} alt="" className="absolute w-full -bottom-50 md:-bottom-90 lg:top-0 right-0 -z-1" loading="lazy" />
       </section>
 
       {/* Tentang kami  */}
@@ -46,8 +46,8 @@ export default function Home() {
           <div className="relative flex flex-col md:flex-row justify-between items-center md:h-screen gap-8 z-1">
             {/* Bagian Gambar */}
             <div className="flex gap-6 md:gap-4 lg:gap-12">
-              <img src={Img1} alt="Gambar 1" className="w-30 sm:w-48 lg:w-[233px] h-auto object-cover" />
-              <img src={Img2} alt="Gambar 2" className="w-30 sm:w-48 lg:w-[233px] h-auto object-cover" />
+              <img src={Img1} alt="Gambar 1" className="w-30 sm:w-48 lg:w-[233px] h-auto object-cover" loading="lazy" />
+              <img src={Img2} alt="Gambar 2" className="w-30 sm:w-48 lg:w-[233px] h-auto object-cover" loading="lazy" />
             </div>
 
             {/* Bagian Teks */}
@@ -79,8 +79,8 @@ export default function Home() {
       </section>
 
       <section className="relative bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat z-1">
-        <img src={Pattern2} alt="" className="absolute w-full -top-10 md:-top-30 lg:-top-50 right-0 -z-1" />
-        <img src={Img3} alt="" className="absolute -top-30 xl:-top-80 right-0 z-1 w-60 md:w-100 xl:w-[700px]" />
+        <img src={Pattern2} alt="" className="absolute w-full -top-10 md:-top-30 lg:-top-50 right-0 -z-1" loading="lazy" />
+        <img src={Img3} alt="" className="absolute -top-30 xl:-top-80 right-0 z-1 w-60 md:w-100 xl:w-[700px]" loading="lazy" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-12 md:pb-32">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -101,7 +101,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 md:mt-24 lg:mt-32">
             <div className="">
-              <img src={Img4} alt="" className="w-full h-40 object-cover" />
+              <img src={Img4} alt="" className="w-full h-40 object-cover" loading="lazy" />
               <p className="mt-8 w-full lg:w-1/3 text-justify">{t("komoditi.desc")}</p>
             </div>
 
@@ -136,7 +136,7 @@ export default function Home() {
 
             <div className="w-full md:w-1/2 flex flex-col-reverse md:flex-col">
               <p className="mt-8 md:mt-0 md:mb-10 text-justify">{t("kelas.desc")} </p>
-              <img src={Img5} alt="" className="w-full h-40 md:h-70 object-cover" />
+              <img src={Img5} alt="" className="w-full h-40 md:h-70 object-cover" loading="lazy" />
             </div>
           </div>
         </div>
