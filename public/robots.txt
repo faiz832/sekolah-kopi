@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://cv-rizki-bangun.vercel.app/sitemap.xml
+Sitemap: https://sekolah-kopi.vercel.app/sitemap.xml
