@@ -1,0 +1,5 @@
+# robots.txt for CV. Rizki Bangun
+User-agent: *
+Disallow:
+
+Sitemap: https://cv-rizki-bangun.vercel.app/sitemap.xml
