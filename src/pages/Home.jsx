@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section  */}
-      <section className="relative bg-[url('/src/assets/images/bg-hero.jpg')] h-screen bg-cover bg-center bg-no-repeat z-1">
+      <section className="relative bg-[url('/src/assets/images/bg-hero.webp')] h-screen bg-cover bg-center bg-no-repeat z-1">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-screen">
             <div className="text-white space-y-6">
