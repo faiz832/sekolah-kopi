@@ -68,7 +68,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative bg-[url('/src/assets/images/bg-img1.png')] h-screen bg-cover bg-center bg-no-repeat z-1">
+      <section className="relative bg-[url('/src/assets/images/bg-img1.webp')] h-screen bg-cover bg-center bg-no-repeat z-1">
         <div className="flex justify-center items-center h-screen">
           <div className="text-white text-center space-y-4">
             <p className="text-base md:text-2xl lg:text-4xl">{t("statistik.title")}</p>
