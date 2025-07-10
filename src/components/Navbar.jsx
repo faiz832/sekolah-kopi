@@ -67,7 +67,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" aria-label="home">
+            <Link to="/" aria-label="Navigate to home">
               <img src={Logo} alt="Logo" className="h-12" loading="lazy" />
             </Link>
           </div>
@@ -75,7 +75,7 @@ export default function Navbar() {
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8">
             {menuItem.map((item, index) => (
-              <Link key={index} to={item.link} aria-label={item.name} className={`block uppercase ${isActive(item.link)}`}>
+              <Link key={index} to={item.link} aria-label={`Navigate to ${item.name}`} className={`block uppercase ${isActive(item.link)}`}>
                 {item.name}
               </Link>
             ))}
@@ -99,7 +99,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-[300px] opacity-100" : "max-h-0 opacity-0"} px-4`}>
         {menuItem.map((item, index) => (
-          <Link key={index} to={item.link} aria-label={item.name} className={`block pb-3 uppercase ${isActive(item.link)}`} onClick={() => setIsOpen(false)}>
+          <Link key={index} to={item.link} aria-label={`Navigate to ${item.name}`} className={`block pb-3 uppercase ${isActive(item.link)}`} onClick={() => setIsOpen(false)}>
             {item.name}
           </Link>
         ))}

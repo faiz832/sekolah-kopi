@@ -25,7 +25,7 @@ export default function Home() {
                 <span className="font-bilbo text-4xl sm:text-8xl leading-[123%] tracking-normal capitalize font-normal">{t("hero.highlight")}</span>
               </h1>
               <p className="text-sm sm:text-base max-w-xl">{t("hero.desc")}</p>
-              <Link to="/class" aria-label="class" className="inline-flex items-center bg-white py-3 px-4 text-[#334710] text-xs sm:text-base rounded-lg uppercase">
+              <Link to="/class" aria-label="Explore our coffee classes" className="inline-flex items-center bg-white py-3 px-4 text-[#334710] text-xs sm:text-base rounded-lg uppercase">
                 {t("hero.cta")}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
@@ -56,7 +56,7 @@ export default function Home() {
                 {t("tentang.title")}
                 <br /> <span className="font-bilbo text-4xl sm:text-8xl leading-[123%] tracking-normal">{t("tentang.highlight")}</span>
               </h1>
-              <Link to="/about" aria-label="about" className="inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
+              <Link to="/about" aria-label="Learn more about us" className="inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase">
                 {t("tentang.cta")}{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
@@ -89,7 +89,7 @@ export default function Home() {
                 {t("robusta.title")} <span className="font-bilbo text-4xl sm:text-5xl lg:text-6xl">{t("robusta.highlight")}</span>
               </h1>
               <p className="text-[#334710] text-sm lg:text-base text-justify">{t("robusta.desc")}</p>
-              <Link to="/information" aria-label="information" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+              <Link to="/information" aria-label="Read more about Robusta coffee" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
                 {t("robusta.cta")}{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
@@ -109,7 +109,7 @@ export default function Home() {
               <h1 className="uppercase text-2xl sm:text-4xl lg:text-5xl font-light">
                 {t("komoditi.title")} <span className="font-bilbo text-4xl sm:text-5xl lg:text-6xl">{t("komoditi.highlight")}</span> {t("komoditi.best")}
               </h1>
-              <Link to="/information" aria-label="information" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+              <Link to="/information" aria-label="Explore coffee commodity details" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
                 {t("komoditi.cta")}{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
@@ -126,7 +126,7 @@ export default function Home() {
               <p>
                 {t("kelas.detail")} <br /> {t("kelas.detail2")}
               </p>
-              <Link to="/class" aria-label="class" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
+              <Link to="/class" aria-label="Join our coffee training classes" className="w-max inline-flex items-center bg-[#334710] py-3 px-4 text-white text-xs sm:text-base rounded-lg uppercase mt-4">
                 {t("kelas.cta")}{" "}
                 <svg xmlns="http://www.w3.org/2000/svg" width="10.605" height="15.555" className="ml-2" fill="currentColor">
                   <path d="m2.828 15.555 7.777-7.779L2.828 0 0 2.828l4.949 4.948L0 12.727l2.828 2.828z" />
