@@ -67,7 +67,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" aria-label="Navigate to home">
+            <Link to="/" aria-label="Go to homepage">
               <img src={Logo} alt="Logo" className="h-12" loading="lazy" />
             </Link>
           </div>

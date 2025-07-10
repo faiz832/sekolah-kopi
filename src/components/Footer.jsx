@@ -25,22 +25,22 @@ export default function Footer() {
             <h1 className="text-lg font-semibold mb-4">{t("quick_links")}</h1>
             <ul className="space-y-2">
               <li>
-                <Link to="/faq" aria-label="Navigate to FAQ" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/faq" aria-label="Frequently Asked Questions page" className="text-gray-300 hover:text-white transition-colors">
                   {t("links.faq")}
                 </Link>
               </li>
               <li>
-                <Link to="/class" aria-label="Navigate to Class" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/class" aria-label="View our coffee classes" className="text-gray-300 hover:text-white transition-colors">
                   {t("links.class")}
                 </Link>
               </li>
               <li>
-                <Link to="/contact" aria-label="Navigate to Contact" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/contact" aria-label="Contact Sekolah Kopi" className="text-gray-300 hover:text-white transition-colors">
                   {t("links.contact")}
                 </Link>
               </li>
               <li>
-                <Link to="/about" aria-label="Navigate to About" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/about" aria-label="About Sekolah Kopi Lampung Barat" className="text-gray-300 hover:text-white transition-colors">
                   {t("links.about")}
                 </Link>
               </li>
@@ -51,13 +51,13 @@ export default function Footer() {
           <div>
             <h1 className="text-lg font-semibold mb-4">{t("social")}</h1>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white transition-colors" aria-label="Facebook">
+              <a href="#" className="text-gray-300 hover:text-white transition-colors" aria-label="Visit our Facebook page">
                 <Facebook className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors" aria-label="Instagram">
+              <a href="#" className="text-gray-300 hover:text-white transition-colors" aria-label="Visit our Instagram profile">
                 <Instagram className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors" aria-label="Twitter">
+              <a href="#" className="text-gray-300 hover:text-white transition-colors" aria-label="Visit our Twitter account">
                 <Twitter className="w-6 h-6" />
               </a>
             </div>
