@@ -13,7 +13,7 @@ export default function Gallery() {
 
   return (
     <>
-      <section className="relative bg-[url('/src/assets/images/bg-hero2.png')] h-screen bg-cover bg-center bg-no-repeat z-1">
+      <section className="relative bg-[url('/src/assets/images/bg-hero2.webp')] h-screen bg-cover bg-center bg-no-repeat z-1">
         <img src={Img8} alt="" className="hidden lg:block absolute -top-10 right-0 -z-1 w-100 xl:w-[600px]" loading="lazy" />
 
         <div className="flex justify-center items-center h-full w-full px-4">
@@ -28,7 +28,7 @@ export default function Gallery() {
         <img src={Pattern1} alt="" className="absolute w-full -bottom-50 md:-bottom-130 lg:top-50 right-0 -z-1" loading="lazy" />
       </section>
 
-      <div className="relative bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat">
+      <div className="relative bg-[url('/src/assets/images/bg-hero2.webp')] bg-repeat">
         <div className="relative flex gap-8 z-1 py-24">
           <Slider />
         </div>

@@ -15,7 +15,7 @@ export default function Information() {
 
   return (
     <>
-      <section className="bg-[url('/src/assets/images/bg-hero2.png')] bg-cover bg-center bg-no-repeat">
+      <section className="bg-[url('/src/assets/images/bg-hero2.webp')] bg-cover bg-center bg-no-repeat">
         <div className="flex justify-center items-center">
           <div className="px-4 text-center pt-24">
             <h1 className="font-semibold text-4xl sm:text-5xl xl:text-7xl lg:-mb-4 lg:mr-90">
@@ -35,7 +35,7 @@ export default function Information() {
         <img src={Pattern1} alt="" className="absolute w-full -bottom-50 md:-bottom-110 lg:-bottom-150 xl:-top-100 right-0 -z-1" loading="lazy" />
       </section>
 
-      <section className="relative z-1 bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat">
+      <section className="relative z-1 bg-[url('/src/assets/images/bg-hero2.webp')] bg-repeat">
         <img src={Img1} alt="" className="hidden lg:block absolute top-20 left-0 -z-1" loading="lazy" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:pt-32 md:pb-40">
@@ -60,7 +60,7 @@ export default function Information() {
         </div>
       </section>
 
-      <section className="relative z-1 bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat">
+      <section className="relative z-1 bg-[url('/src/assets/images/bg-hero2.webp')] bg-repeat">
         <img src={Pattern2} alt="" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full -z-1" loading="lazy" />
         <img src={Img7} alt="" className="hidden lg:block absolute lg:-bottom-20 xl:-bottom-70 right-0 w-80 xl:w-[600px]" loading="lazy" />
 
@@ -72,7 +72,7 @@ export default function Information() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat">
+      <section className="relative overflow-hidden bg-[url('/src/assets/images/bg-hero2.webp')] bg-repeat">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24 md:py-24 md:my-24 space-y-12 md:space-y-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="">

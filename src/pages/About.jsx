@@ -24,7 +24,7 @@ export default function About() {
         <img src={Pattern1} alt="" className="absolute w-full -bottom-20 lg:-bottom-30 xl:top-50 right-0 -z-1" loading="lazy" />
       </section>
 
-      <section className="relative z-1 bg-[url('/src/assets/images/bg-hero2.png')] bg-cover bg-center bg-no-repeat">
+      <section className="relative z-1 bg-[url('/src/assets/images/bg-hero2.webp')] bg-cover bg-center bg-no-repeat">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:pt-24 md:pb-40">
           <div className="flex flex-col-reverse md:flex-row gap-8 justify-between">
             <div className="space-y-4 w-full xl:w-3xl text-justify">
@@ -55,7 +55,7 @@ export default function About() {
         </div>
       </section>
 
-      <div className="bg-[url('/src/assets/images/bg-hero2.png')] bg-cover bg-center bg-no-repeat">
+      <div className="bg-[url('/src/assets/images/bg-hero2.webp')] bg-cover bg-center bg-no-repeat">
         <section className="bg-[url('/src/assets/images/pattern3.png')] bg-cover bg-center bg-no-repeat">
           <div className="flex justify-center items-center h-screen w-full px-4">
             <p className="text-center text-5xl">{t("quote.text")}</p>
@@ -94,7 +94,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="relative bg-[url('/src/assets/images/bg-hero2.png')] bg-cover bg-center bg-no-repeat z-1">
+      <section className="relative bg-[url('/src/assets/images/bg-hero2.webp')] bg-cover bg-center bg-no-repeat z-1">
         <img src={Pattern4} alt="" className="absolute w-full top-0 right-0 -z-1" loading="lazy" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen py-12">

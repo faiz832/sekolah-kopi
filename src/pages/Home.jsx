@@ -41,7 +41,7 @@ export default function Home() {
       </section>
 
       {/* Tentang kami  */}
-      <section className="bg-[url('/src/assets/images/bg-hero2.png')] bg-cover bg-center bg-no-repeat">
+      <section className="bg-[url('/src/assets/images/bg-hero2.webp')] bg-cover bg-center bg-no-repeat">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-0 ">
           <div className="relative flex flex-col md:flex-row justify-between items-center md:h-screen gap-8 z-1">
             {/* Bagian Gambar */}
@@ -78,7 +78,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat z-1">
+      <section className="relative bg-[url('/src/assets/images/bg-hero2.webp')] bg-repeat z-1">
         <img src={Pattern2} alt="" className="absolute w-full -top-10 md:-top-30 lg:-top-50 right-0 -z-1" loading="lazy" />
         <img src={Img3} alt="" className="absolute -top-30 xl:-top-80 right-0 z-1 w-60 md:w-100 xl:w-[700px]" loading="lazy" />
 

@@ -27,7 +27,7 @@ export default function Payment() {
   }, [timeLeft, navigate]);
 
   return (
-    <div className="bg-[url('/src/assets/images/bg-hero2.png')] bg-cover bg-center bg-no-repeat">
+    <div className="bg-[url('/src/assets/images/bg-hero2.webp')] bg-cover bg-center bg-no-repeat">
       <div className="min-h-screen flex flex-col justify-between items-center px-4 py-24 md:py-32 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${BackgroundPattern})` }}>
         <div className="w-full max-w-xl bg-white/90 rounded-md p-8 shadow-lg">
           <h1 className="text-center text-3xl md:text-4xl font-light mb-8 uppercase tracking-wide whitespace-pre-line">{t("title")}</h1>

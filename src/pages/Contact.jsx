@@ -9,7 +9,7 @@ export default function Contact() {
   const reasons = [t("support"), t("feedback"), t("generalQuestion")];
 
   return (
-    <div className="bg-[url('/src/assets/images/bg-hero2.png')] bg-repeat">
+    <div className="bg-[url('/src/assets/images/bg-hero2.webp')] bg-repeat">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 space-y-24">
         {/* Form Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">

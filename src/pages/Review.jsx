@@ -39,7 +39,7 @@ export default function Review() {
       </div>
 
       {/* Form Section */}
-      <div className="bg-[url('/src/assets/images/bg-hero2.png')] bg-cover bg-center bg-no-repeat">
+      <div className="bg-[url('/src/assets/images/bg-hero2.webp')] bg-cover bg-center bg-no-repeat">
         <div className="max-w-5xl mx-auto px-4 py-12">
           <h2 className="text-2xl sm:text-3xl font-semibold mb-2">{t("formTitle")}</h2>
           <p className="text-gray-700 mb-8">{t("formSubtitle")}</p>
